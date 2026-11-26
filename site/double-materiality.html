@@ -1,0 +1,1047 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAEXUlEQVR42s2XTWxUVRTHf/feN28olI8GWqQkVRdVFn5gAReyIGFqSVBQQ1xpIGyIFAKYEBaYgJhAaCIhstREF0YMcSVLkKBETYhgGjZGI9MCRgUNdFr7MZ17z3Exr2XavpnQ2Kr/ZDJ5uefe8z8f955zAFBVm/wvVdUuVf1BVUVnDpKc2aWqSyt1VirvUNUbOvu4oaodk0nkKgT8dKwXkeT3QF7wFd85AKOqjUA3sAwQwAGEIKgqlbDWYq1BRBERrDVYa8fXRQQRxTmLMYYqCIAFfgNWRsB+oDlZcGNSztn03UFwzmJtWXR0tIT3gTlz4oTgRLkUuERXM7DfqGoeeARQwKoqxhhOn77A9fwvZDIZwFAaHWHjxrWsWvUYvb23OXPmCy5+2c31678yMuJZuHAuD7c0sW7d07z2+gaWNy9OvJRKQgAD9Bqd5OexTWuefYMr330FzE9k+3jv1HGyccSBA6fo77+XGBMl65IY5lnSuIwT7+5l69bna3kCkt2anDABixbVE0UNuKieEASYz8mTn9HbcxMwRJlFqJLkSfkIY8AYy59/9LNt20EGB4fZuXNzLRJq05SPxdD7MOHX23ML62JclEVVCSEgIhhjk2/Be491GZybx569J+ju/hnnbGLEFJjqvkmBdTHGWIIfIviBsuEqBF9AxY9nvohgbIQvDXPo8EdlTaZ6CB4IzjmCLwFDrHzmKXZ1bqFtVSvBCxcvfs/xrk+4d7cPY+Nxbxgzl/PnrnDz5h1aWpoQUaw10yNgjEmUD7BgQQNvH9nNrs5XiOP7W9eseZz29tWsX7+H/oEhjHGoKs45RkYKXL36Y5mACvb+TS97tbZyCyjBF8i1P8fly+/z5r5XieMI70Py8AjFYom2tlY6O7egMjiecOWQBHp6f09SLiWsVa9H5FAtohI48s5uzp87yYoVLXgfUC2vlx8eSxQ5RJRcexsQIyITrvzwcLHmNUzF3bv9NDY18enpY+RybXgfiCJHFLn0BLWG+vo6IEInW6o1Ejst5qrKpk1r+ebrD8nl2igWS0SRo1AYpDhaqn6aMm2kEgDD4UNbaW1txvtANpvh87Pf8sKLBwk+jFVQZgI2PfmgVArjuXD02Me8/NI+bt26QxxnmEmk5oCqksk4bt/uY8eOLs6evQDE1NVlEdHZJSCiGAOXLl1j+/aj5PN54mwDpdGhSdnNbIWgXI4PvvUB+fxPxNkGvPczFvMHfgey2Rhrs4QQmE1UJaCqMx7vaRH4t1C1IbHW4pzDuXKtN7ianU1l4TLWJsXIouKmVMBKR0fVGpKBgSFCKCSNhAJF+voGaxLwPhBCP4QoKWIOKDA8PFqVcwT0VDalY01FR8dqmhrnkYnryvXdl1i+/KEKa8yk1xMWL1nAps0bcNahKM46isW/eOLJRyfIVTalJOOSThoaZhtjurqqDiYiMqWqGUO1Nju5OaQ+VtaaSusnDCb/eDSb5oA6ZTT73wyn/9l4/jchbgEs4uTq9wAAAABJRU5ErkJggg==">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<title>Disclosure Defenders: Double Materiality | Two Lenses, Every Topic</title>
+<meta name="description" content="Every topic takes two hits: one for impact materiality, one for financial. IROs, thresholds and audit trails included.">
+<link rel="canonical" href="https://disclosure-defenders.pages.dev/double-materiality.html">
+<meta name="dd:level" content="double-materiality">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Disclosure Defenders">
+<meta property="og:title" content="Disclosure Defenders: Double Materiality | Two Lenses, Every Topic">
+<meta property="og:description" content="Every topic takes two hits: one for impact materiality, one for financial. IROs, thresholds and audit trails included.">
+<meta property="og:url" content="https://disclosure-defenders.pages.dev/double-materiality.html">
+<meta property="og:image" content="https://disclosure-defenders.pages.dev/og/double-materiality.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Disclosure Defenders: Double Materiality | Two Lenses, Every Topic">
+<meta name="twitter:description" content="Every topic takes two hits: one for impact materiality, one for financial. IROs, thresholds and audit trails included.">
+<meta name="twitter:image" content="https://disclosure-defenders.pages.dev/og/double-materiality.png">
+<meta name="theme-color" content="#05080f">
+<style>
+  html, body { margin: 0; background: #05080f; overscroll-behavior: none; }
+  #dd-root { min-height: 100vh; min-height: 100dvh; display: flex; flex-direction: column; align-items: center; justify-content: center;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: #e8eefc;
+    -webkit-user-select: none; user-select: none; -webkit-tap-highlight-color: transparent; touch-action: manipulation; }
+  #dd-stage { position: relative; box-shadow: 0 0 0 1px #1c2740, 0 20px 60px rgba(0,0,0,.6); background: linear-gradient(#070b16, #0e1629); }
+  #dd-canvas { display: block; width: 100%; height: 100%; }
+  #dd-overlay { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: rgba(5,8,15,.93); }
+  #dd-card { width: 82%; max-width: 34em; max-height: 94%; overflow: auto; text-align: center; line-height: 1.45; }
+  #dd-card .k { font: 700 .72em ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: .22em; text-transform: uppercase; color: var(--acc, #7be0a0); }
+  #dd-card h1 { font-size: 2.1em; line-height: 1.1; margin: .25em 0 .3em; letter-spacing: -.01em; }
+  #dd-card h2 { font-size: 1.6em; line-height: 1.15; margin: .25em 0 .35em; }
+  #dd-card p { margin: .55em 0; color: #c3cde3; font-size: .95em; }
+  #dd-card .tip { color: #e8eefc; border-left: 3px solid var(--acc, #7be0a0); background: rgba(255,255,255,.05); padding: .55em .8em; text-align: left; border-radius: 0 4px 4px 0; }
+  #dd-card .chips { display: flex; flex-wrap: wrap; gap: .4em; justify-content: center; margin: .8em 0; }
+  #dd-card .chip { font-size: .72em; font-weight: 700; padding: .25em .7em; border-radius: 99px; color: #0b1220; }
+  #dd-card .stats { display: grid; grid-template-columns: auto 1fr; gap: .3em 1.2em; margin: .8em auto; max-width: 27em; font-size: .9em; text-align: left; }
+  #dd-card .stats b { text-align: right; font-family: ui-monospace, Menlo, Consolas, monospace; color: #fff; }
+  #dd-card button, #dd-card a.cta { display: inline-block; margin: .9em .3em 0; padding: .7em 1.6em; font: 700 1em inherit; font-family: inherit; color: #0b1220;
+    background: var(--acc, #7be0a0); border: 0; border-radius: 6px; cursor: pointer; text-decoration: none; }
+  #dd-card a.cta { background: transparent; color: var(--acc, #7be0a0); box-shadow: inset 0 0 0 2px var(--acc, #7be0a0); }
+  #dd-card .hint { margin-top: .7em; font: .7em ui-monospace, Menlo, Consolas, monospace; color: #6f7c99; letter-spacing: .08em; }
+  #dd-help { margin-top: 10px; font: 12px ui-monospace, Menlo, Consolas, monospace; color: #6f7c99; letter-spacing: .04em; }
+  #dd-touch { display: none; width: 100%; max-width: 560px; box-sizing: border-box; gap: 10px; align-items: center;
+    padding: 10px max(30px, calc(env(safe-area-inset-right) + 18px)) max(12px, env(safe-area-inset-bottom)) max(30px, calc(env(safe-area-inset-left) + 18px)); }
+  #dd-touch button { height: 68px; flex: 1; font-size: 24px; font-weight: 700; color: #e8eefc; background: #121a2e; border: 1px solid #25324f; border-radius: 12px; touch-action: none; }
+  #dd-touch button.small { flex: 0 0 52px; font-size: 16px; }
+  #dd-touch button.fire { flex: 1.6; background: #1d3a2c; border-color: #2f6b4d; color: #7be0a0; font-size: 18px; letter-spacing: .1em; }
+  #dd-touch button:active { filter: brightness(1.5); }
+  .dd-touch #dd-touch { display: flex; }
+  #dd-touch button { min-width: 0; }
+  @media (max-width: 360px) { #dd-touch { gap: 7px; padding-left: 26px; padding-right: 26px; } #dd-touch button.small { flex-basis: 42px; } }
+  .dd-touch #dd-help { display: none; }
+  #dd-card button.sec, #dd-card button.lv, #dd-card button.df { background: transparent; color: #e8eefc; box-shadow: inset 0 0 0 1.5px #3a4a6e; }
+  #dd-card .lvs { display: grid; grid-template-columns: 1fr 1fr; gap: .45em; max-width: 30em; margin: .7em auto 0; }
+  .dd-port #dd-card .lvs { grid-template-columns: 1fr; }
+  #dd-card button.lv { margin: 0; padding: .5em .8em; text-align: left; font-size: .9em; line-height: 1.25; }
+  #dd-card button.lv b { color: var(--c); margin-right: .5em; }
+  #dd-card button.lv small { display: block; font-weight: 400; color: #8fa0c2; font-size: .82em; }
+  #dd-card button.lv:hover, #dd-card button.sec:hover { box-shadow: inset 0 0 0 1.5px #e8eefc; }
+  #dd-card .dfs { display: flex; align-items: center; justify-content: center; gap: .45em; margin: .9em 0 .2em; font-size: .85em; color: #8fa0c2; }
+  #dd-card button.df { margin: 0; padding: .4em 1em; font-size: .95em; }
+  #dd-card button.df.on { background: var(--acc, #7be0a0); color: #0b1220; box-shadow: none; }
+  #dd-card p.sp { font-size: .82em; color: #8fa0c2; }
+  #dd-card p.sp b { color: #e8eefc; }
+  #dd-card table.hs { width: 100%; max-width: 25em; margin: .6em auto; border-collapse: collapse; font: .8em ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; text-align: left; }
+  #dd-card .hs td { padding: .2em .55em; color: #c3cde3; border-bottom: 1px solid #1c2740; }
+  #dd-card .hs td:first-child { color: #6f7c99; width: 2em; text-align: right; }
+  #dd-card .hs td:last-child { text-align: right; color: #fff; }
+  #dd-card .hs tr.me td { color: #0b1220; background: var(--acc, #7be0a0); font-weight: 700; }
+  #dd-card .hs tr.ch td { color: var(--acc, #7be0a0); }
+  #dd-card .hs i { font-style: normal; font-size: .78em; opacity: .75; text-transform: uppercase; letter-spacing: .08em; margin-left: .4em; }
+  #dd-card p.claim { color: #e8eefc; }
+  #dd-card p.claim b { color: var(--acc, #7be0a0); }
+  #dd-card .nm { display: flex; gap: .4em; justify-content: center; margin: .5em 0; }
+  #dd-card .nm input { font: 700 1em ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; background: #0b1220; color: #fff; border: 1.5px solid var(--acc, #7be0a0); border-radius: 6px;
+    padding: .55em .8em; width: 26ch; max-width: 70%; text-align: center; -webkit-user-select: text; user-select: text; outline: none; }
+  #dd-card .nm button { margin: 0; padding: .5em .8em; }
+  #dd-card .shr { display: flex; flex-wrap: wrap; gap: .45em; justify-content: center; margin: .6em 0 .2em; }
+  #dd-card button.sh, #dd-card a.sh { margin: 0; padding: .42em 1em; font-size: .8em; font-weight: 600; background: transparent; color: var(--acc, #7be0a0);
+    box-shadow: inset 0 0 0 1.5px var(--acc, #7be0a0); border-radius: 99px; text-decoration: none; cursor: pointer; }
+  /* Credit stamp: bottom centre of the game frame on every desktop screen. Hidden on phones and tablets, and on screens whose card already carries the larger credit. */
+  #dd-stamp { position: absolute; left: 50%; bottom: calc(10px * var(--s, 1)); transform: translateX(-50%); z-index: 3; display: inline-flex; align-items: center; gap: calc(6px * var(--s, 1));
+    font: 600 calc(11.5px * var(--s, 1)) ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: #c8d2e8; text-decoration: none;
+    opacity: .56; transition: opacity .2s; white-space: nowrap; }
+  #dd-stamp:hover, #dd-stamp:focus-visible { opacity: .9; }
+  #dd-stamp img { height: calc(16px * var(--s, 1)); width: auto; display: block; }
+  #dd-stamp b { font-size: 1.3em; letter-spacing: .01em; }
+  #dd-stage.ov #dd-stamp { bottom: calc(26px * var(--s, 1)); }
+  .dd-touch #dd-stamp, .dd-port #dd-stamp, #dd-stage.branded #dd-stamp { display: none; }
+  #dd-card a.dd-brand2 { display: inline-flex; align-items: center; gap: .6em; margin-top: 1.1em; padding-top: .9em; border-top: 1px solid #25324f;
+    font-size: .9em; letter-spacing: .02em; color: #c3cde3; text-decoration: none; opacity: 1; transition: color .2s; }
+  #dd-card a.dd-brand2:hover, #dd-card a.dd-brand2:focus-visible { color: #fff; }
+  #dd-card a.dd-brand2 img { height: 1.9em; width: auto; display: block; filter: brightness(1.15); }
+  #dd-card .row2 { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: .2em 1.1em; margin-top: .7em; }
+  #dd-card .row2 > div { display: contents; }
+  #dd-card .row2 button.tips-btn, #dd-card .row2 a.dd-brand2.sm { margin: 0; }
+  #dd-card a.dd-brand2.sm { margin-top: .9em; padding-top: 0; border-top: 0; font-size: .75em; color: #8fa0c2; }
+  #dd-card a.dd-brand2.sm img { height: 1.4em; filter: none; opacity: .85; }
+  #dd-card a.dd-brand2 b { font-size: 1.6em; color: #e8eefc; letter-spacing: .01em; }
+  #dd-card button.tips-btn { margin: .9em 0 0; padding: .2em .4em; font-size: .72em; font-weight: 500; background: transparent; color: #6f7c99; box-shadow: none; border: 0;
+    border-radius: 4px; cursor: help; letter-spacing: .03em; text-decoration: underline dotted; text-underline-offset: .25em; }
+  #dd-card button.tips-btn:hover, #dd-card button.tips-btn[aria-expanded="true"] { color: #a9b6d3; }
+  #dd-tips { position: absolute; left: 50%; transform: translateX(-50%); z-index: 6; width: min(92%, 31em); overflow: auto; box-sizing: border-box;
+    padding: 1em 1.2em 1.1em; background: #0b1220; border: 1.5px solid var(--acc, #7be0a0); border-radius: 10px; box-shadow: 0 18px 50px rgba(0,0,0,.65);
+    font-size: .86em; line-height: 1.45; color: #c3cde3; text-align: left; -webkit-user-select: text; user-select: text; }
+  #dd-tips[hidden] { display: none; }
+  #dd-tips h3 { margin: 0 0 .2em; font: 700 .78em ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; letter-spacing: .18em; text-transform: uppercase; color: var(--acc, #7be0a0); }
+  #dd-tips h4 { margin: .7em 0 .15em; font-size: .95em; color: #fff; }
+  #dd-tips p, #dd-tips ul { margin: .25em 0; }
+  #dd-tips ul { padding-left: 1.15em; }
+  #dd-tips li { margin: .15em 0; }
+  #dd-tips b { color: #e8eefc; }
+  #dd-tips table { border-collapse: collapse; margin: .35em 0; font: .9em ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+  #dd-tips td { padding: .1em .3em .1em 0; color: #a9b6d3; }
+  #dd-tips td:nth-child(even) { color: var(--acc, #7be0a0); font-weight: 700; padding-right: 1.1em; }
+  #dd-tips .x { position: sticky; top: 0; float: right; margin: -.3em -.4em 0 0; width: 2em; height: 2em; border: 0; border-radius: 99px; background: #1c2740; color: #fff; font-size: 1em; cursor: pointer; }
+</style>
+</head>
+<body>
+<div id="dd-root">
+  <div id="dd-stage">
+    <canvas id="dd-canvas" aria-label="Disclosure Defenders game"></canvas>
+    <div id="dd-overlay"><div id="dd-card"></div></div>
+    <div id="dd-tips" role="dialog" aria-label="Game tips" hidden></div>
+    <a id="dd-stamp" href="https://novisto.com/?utm_source=disclosure-defenders&amp;utm_medium=referral&amp;utm_campaign=disclosure-defenders&amp;utm_content=game-frame" target="_blank" rel="noopener">Brought to you by <img src="data:image/png;base64,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" alt="Novisto"></a>
+  </div>
+  <div id="dd-touch">
+    <button data-k="left" aria-label="Move left">&#9664;</button>
+    <button data-k="right" aria-label="Move right">&#9654;</button>
+    <button class="small" data-a="pause" aria-label="Pause">II</button>
+    <button class="small" data-a="special" aria-label="Special">&#9733;</button>
+    <button class="fire" data-k="fire">FIRE</button>
+  </div>
+  <div id="dd-help">&larr; &rarr; move &nbsp;&middot;&nbsp; Space fire &nbsp;&middot;&nbsp; X special &nbsp;&middot;&nbsp; P pause &nbsp;&middot;&nbsp; M mute</div>
+</div>
+<script>
+(function () {
+'use strict';
+
+/* ───────────── Site config: edit these for the microsite ───────────── */
+var CONFIG = {
+  title: 'Disclosure Defenders',
+  tagline: 'An arcade tribute to the people who keep the sustainability report on the rails.',
+  ctaText: '',          // e.g. 'See how we can help'
+  ctaUrl: '',           // e.g. 'https://novisto.com/demo'  (button on the final win screen; hidden while empty; novisto.com links get UTMs added)
+  startLives: 3,
+  levelPages: true,     // share links point at compliance.html, risk.html ... (set false to use index.html#risk style links)
+  shareBase: '',        // e.g. 'https://example.com/disclosure-defenders/'  (defaults to wherever the page is hosted)
+  leaderboardUrl: 'https://disclosure-defenders-scores.matt-monsees.workers.dev/'    // optional shared board. GET ?board=<key> returns [{name, score, difficulty}]; POST {board, name, score, difficulty}.
+                        // While empty, scores are kept in each player's own browser.
+};
+
+/* ───────────── Level content ─────────────
+   Enemy entry: [label | [labels that it morphs through], category, {hp, dive}]  */
+var LEVELS = [
+{
+  name: 'Compliance', title: 'The Regulatory Alphabet', accent: '#7cc4ff', shot: '§',
+  brief: 'Frameworks, assurance engagements and filing dates are descending on your reporting cycle. Clear them before they reach your controls.',
+  tip: 'Limited assurance goes down in one hit. Reasonable assurance takes three. Deadlines break formation and dive. And every so often the policy shifts under your feet.',
+  cats: { reg: ['#7cc4ff', 'Rules & frameworks'], assure: ['#c9a7ff', 'Assurance'], deadline: ['#ff8f6b', 'Deadlines'], shift: ['#ffd166', 'Ever-shifting policy'], green: ['#7be0a0', 'Greenwashing'] },
+  shields: ['Controls', 'Audit trail', 'Data', 'Policies'], shieldDead: 'GAP',
+  ufo: 'GREENWASHING', ufoPop: 'Claim debunked!',
+  pops: ['Compliant', 'Disclosed', 'Assured', 'Filed', 'Tagged'], breach: 'Non-compliance finding!', missPop: 'Deadline missed',
+  policyShift: true,
+  enemies: [
+    ['CSRD', 'reg'], ['ESRS', 'reg'], ['CSDDD', 'reg'], ['IFRS S1 & S2', 'reg'], ['SFDR', 'reg'], ['EU Taxonomy', 'reg'],
+    ['Limited Assurance', 'assure'], ['Reasonable Assurance', 'assure', { hp: 3 }], ['SB 253', 'reg'], ['SB 261', 'reg'],
+    [['SEC Climate Rule', 'SEC Rule: Stayed', 'SEC Rule: ???'], 'shift'], ['CBAM', 'reg'],
+    ['Filing Deadline', 'deadline', { dive: 1 }], [['Omnibus I', 'Stop-the-Clock', 'Wave 2: FY2027'], 'shift'],
+    [['250 employees', '1,000 employees', 'In scope? Maybe'], 'shift'], [['Eco-Friendly*', 'Carbon Neutral*', 'Greenwashing!'], 'green'],
+    [['EUDR 2024', 'EUDR 2025', 'EUDR 2026'], 'shift'], ['Audit Deadline', 'deadline', { dive: 1 }],
+    ['TCFD', 'reg'], ['GRI', 'reg'], ['XBRL Tagging', 'reg'], ['ISAE 3000', 'assure'], ['Board Sign-off Due', 'deadline', { dive: 1 }], ['ISSA 5000', 'assure']
+  ]
+},
+{
+  name: 'Risk', title: 'Physical, Transition & Nature', accent: '#ff9f6b', shot: '!',
+  brief: 'Climate and nature risks are bearing down on four assets. Mitigate each risk before it lands. The outcomes you are here to avoid: stranded assets, write-downs and sites nobody will insure.',
+  tip: 'The four blocks in front of you are your assets. Lose one and it is stranded. Every asset still standing at the end earns a bonus.',
+  cats: { phys: ['#6fc3ff', 'Physical risk'], nature: ['#7be0a0', 'Nature & biodiversity'], trans: ['#ffb86b', 'Transition risk'], sys: ['#ff7f8f', 'Systemic'] },
+  shields: ['Factory', 'Farmland', 'Portfolio', 'Supply chain'], shieldDead: 'STRANDED',
+  ufo: 'BLACK SWAN', ufoPop: 'Scenario-tested!',
+  pops: ['Mitigated', 'Adapted', 'Hedged', 'Priced in', 'Resilient'], breach: 'Asset stranded!', missPop: 'Risk realised',
+  avoided: ['Stranded assets', 'Write-downs', 'Uninsurable sites', 'Supply shocks'],
+  enemies: [
+    ['Water Scarcity', 'phys'], ['Flood Risk', 'phys'], ['Wildfire', 'phys'], ['Heat Stress', 'phys'], ['Drought', 'phys'], ['Sea-Level Rise', 'phys'],
+    ['Cyclones', 'phys'], ['Biodiversity Loss', 'nature'], ['Deforestation', 'nature'], ['Soil Degradation', 'nature'], ['Pollinator Decline', 'nature'], ['Nature Dependency', 'nature'],
+    ['Carbon Pricing', 'trans'], ['Policy Risk', 'trans'], ['Litigation Risk', 'trans'], ['Reputational Risk', 'trans'], ['Tech Disruption', 'trans'], ['Market Shift', 'trans'],
+    ['Supply Chain Shock', 'sys', { dive: 1 }], ['Resource Scarcity', 'sys'], ['Insurance Retreat', 'sys'], ['Cost of Capital', 'sys'], ['Tipping Point', 'sys', { hp: 3 }], ['Compound Risk', 'sys', { hp: 2 }]
+  ]
+},
+{
+  name: 'Double Materiality', title: 'Two Lenses, Every Topic', accent: '#5fd6c4', shot: '?', dual: true, fireCd: 0.24,
+  brief: 'The double materiality assessment has arrived, with everything it entails: long-lists, IROs, scoring, thresholds and an audit trail for all of it.',
+  tip: 'Every topic needs two hits. The first assesses impact materiality (inside-out, the teal half). The second assesses financial materiality (outside-in, the amber half).',
+  cats: { imp: ['#5fd6c4', 'Impact materiality'], fin: ['#ffc857', 'Financial materiality'] },
+  shields: ['Evidence', 'Method', 'Minutes', 'Sign-off'], shieldDead: 'GAP',
+  ufo: 'STICKY-NOTE WORKSHOP', ufoPop: 'Synthesised!',
+  pops: ['Material!', 'Assessed', 'Scored', 'Documented'], breach: 'Assessment challenged!', missPop: 'Missed',
+  enemies: [
+    ['Impact Materiality', 'imp'], ['Financial Materiality', 'imp'], ['IROs', 'imp'], ['Value Chain Mapping', 'imp'], ['Stakeholder Engagement', 'imp'], ['Topic Long-List', 'imp'],
+    ['Severity', 'imp'], ['Scale', 'imp'], ['Scope', 'imp'], ['Irremediability', 'imp'], ['Likelihood', 'imp'], ['Magnitude', 'imp'],
+    ['Time Horizons', 'imp'], ['Thresholds', 'imp'], ['Scoring Method', 'imp'], ['Actual vs Potential', 'imp'], ['Risks', 'imp'], ['Opportunities', 'imp'],
+    ['ESRS 1', 'imp'], ['Sub-Topics', 'imp'], ['Affected Stakeholders', 'imp'], ['Dependencies', 'imp'], ['Audit Trail', 'imp'], ['Materiality Matrix', 'imp']
+  ]
+},
+{
+  name: 'Carbon Accounting', title: 'Scopes 1, 2 and All of 3', accent: '#b6e36b', shot: 'CO₂',
+  brief: 'Time to build the inventory. Scope 1, both flavours of Scope 2, and every one of the fifteen Scope 3 categories, all by the book.',
+  tip: 'The GHG Protocol is the standard everything else hangs off, so it takes three hits. Base-year recalculations and double counting take two.',
+  cats: { std: ['#ffffff', 'Standard & method'], s1: ['#ff8f6b', 'Scope 1'], s2: ['#ffd166', 'Scope 2'], s3: ['#b6e36b', 'Scope 3 (15 categories)'] },
+  shields: ['Activity data', 'Factors', 'Boundary', 'Base year'], shieldDead: 'GAP',
+  ufo: 'UNVERIFIED OFFSETS', ufoPop: 'Verified!',
+  pops: ['Measured', 'Calculated', 'Reported', 'Abated', 'tCO₂e ✓'], breach: 'Inventory incomplete!', missPop: 'Unaccounted',
+  enemies: [
+    ['GHG Protocol', 'std', { hp: 3 }], ['Scope 1', 's1'], ['Scope 2 Location-Based', 's2'], ['Scope 2 Market-Based', 's2'], ['Emission Factors', 'std'], ['Base Year Recalc', 'std', { hp: 2 }],
+    ['3.1 Purchased Goods', 's3'], ['3.2 Capital Goods', 's3'], ['3.3 Fuel & Energy', 's3'], ['3.4 Upstream Transport', 's3'], ['3.5 Waste', 's3'], ['3.6 Business Travel', 's3'],
+    ['3.7 Commuting', 's3'], ['3.8 Upstream Leased', 's3'], ['3.9 Downstream Transport', 's3'], ['3.10 Processing', 's3'], ['3.11 Use of Sold Products', 's3'], ['3.12 End-of-Life', 's3'],
+    ['3.13 Downstream Leased', 's3'], ['3.14 Franchises', 's3'], ['3.15 Investments', 's3'], ['Activity Data', 'std'], ['Org Boundary', 'std'], ['Double Counting', 'std', { hp: 2 }]
+  ]
+},
+{
+  name: 'Stakeholder Management', title: 'Everyone Has a Question', accent: '#f6a6ff', shot: '@', tick: true,
+  brief: 'Investors, customers, auditors, the board and that one colleague with a quick question. They all mean well, and they all need something by Friday.',
+  tip: 'No stakeholders are harmed in this level. You fire answers, not lasers. Resolve every request until the whole room is aligned.',
+  cats: { ext: ['#8fd0ff', 'External requests'], int: ['#f6a6ff', 'Internal requests'], inbox: ['#ffd166', 'Inbox classics'], urgent: ['#ff8f6b', 'Urgent'] },
+  shields: ['Calendar block', 'Shared tracker', 'FAQ doc', 'Coffee'], shieldDead: 'GONE',
+  ufo: 'REPLY-ALL STORM', ufoPop: 'Thread muted!',
+  pops: ['Answered', 'Aligned', 'Looped in', 'Sent ✓', 'Resolved', 'Thanks!'], breach: 'Inbox overflow!', missPop: 'Escalated',
+  enemies: [
+    ['Investor Questionnaire', 'ext'], ['CDP Request', 'ext'], ['Ratings Agency Query', 'ext'], ['Customer RFP', 'ext'], ['Board Deck by Monday', 'int'], ['CFO: “What’s the ROI?”', 'int'],
+    [['Quick Question…', '…It’s 40 Questions'], 'inbox'], ['Per My Last Email', 'inbox'], ['v7_FINAL_final.xlsx', 'inbox'], ['Meeting → Email', 'inbox'], ['Supplier Data Chase', 'ext'], ['Auditor PBC List', 'ext'],
+    ['Legal Review', 'int'], ['NGO Open Letter', 'ext'], ['Town Hall Q&A', 'int'], ['Procurement Survey', 'ext'], [['Small Ask', 'Scope Creep', 'New Workstream'], 'inbox'], ['“Can You Resend?”', 'inbox'],
+    ['Comms: “Make It Punchy”', 'int'], ['Site Data: “Soon”', 'int'], ['Regulator Inquiry', 'ext', { hp: 2 }], ['URGENT!!', 'urgent', { dive: 1 }], ['AGM Question', 'ext', { hp: 2 }], ['“Needed by EOD”', 'urgent', { dive: 1 }]
+  ]
+}
+];
+
+/* Per-level extras: URL slug, special move, policy-shift headlines, sign-off line */
+var EXTRA = [
+  { slug: 'compliance', special: 'CLEAN ASSURANCE OPINION', done: 'Clean opinion, no findings. They moved the goalposts twice and you still scored.',
+    shifts: ['POLICY SHIFT: Omnibus just dropped', 'POLICY SHIFT: thresholds raised', 'POLICY SHIFT: stop the clock!', 'POLICY SHIFT: delegated act delayed', 'POLICY SHIFT: new FAQ published. It raises questions.'] },
+  { slug: 'risk', special: 'SCENARIO ANALYSIS', done: 'Risks priced, sites still insurable, and nothing stranded that did not have to be.' },
+  { slug: 'double-materiality', special: 'BOARD SIGN-OFF', done: 'The material topics list is final. Nobody will reopen it. (Somebody will reopen it.)' },
+  { slug: 'carbon-accounting', special: 'PRIMARY SUPPLIER DATA', done: 'Inventory complete: Scope 1, Scope 2 twice over, and all fifteen categories of Scope 3. Base year intact.' },
+  { slug: 'stakeholders', special: 'OUT OF OFFICE: ON', done: 'Inbox zero and everyone aligned. Enjoy it for the next eleven minutes.' }
+];
+LEVELS.forEach(function (l, i) { for (var k in EXTRA[i]) l[k] = EXTRA[i][k]; });
+/* What pops up when each item is dealt with (keyed by its first label) */
+var QUIPS = {
+  'CSRD': 'In scope and in control', 'ESRS': 'Datapoints disclosed', 'CSDDD': 'Due diligence done', 'IFRS S1 & S2': 'Interoperable!', 'SFDR': 'PAIs reported',
+  'EU Taxonomy': 'Aligned, not just eligible', 'Limited Assurance': 'Nothing came to our attention', 'Reasonable Assurance': 'In our opinion: fairly stated',
+  'SB 253': 'Scopes reported', 'SB 261': 'Climate risk report posted', 'SEC Climate Rule': 'Whatever it is now: done', 'CBAM': 'Embedded emissions declared',
+  'Filing Deadline': 'Filed with hours to spare', 'Omnibus I': 'Simplified!', '250 employees': 'Scope confirmed', 'Eco-Friendly*': 'Claim substantiated',
+  'EUDR 2024': 'Geolocation supplied', 'Audit Deadline': 'PBC list cleared', 'TCFD': 'Four pillars covered', 'GRI': 'Content index built',
+  'XBRL Tagging': 'Tagged, every last one', 'ISAE 3000': 'Engagement letter signed', 'Board Sign-off Due': 'Signed!', 'ISSA 5000': 'New standard, same evidence',
+
+  'Water Scarcity': 'Basin-level data, finally', 'Flood Risk': '1-in-100-year, again', 'Wildfire': 'Site hardened', 'Heat Stress': 'Shift patterns adapted', 'Drought': 'Sourcing diversified',
+  'Sea-Level Rise': 'Not our coastline now', 'Cyclones': 'Business continuity tested', 'Biodiversity Loss': 'Site-level footprint mapped', 'Deforestation': 'Traced to the plot',
+  'Soil Degradation': 'Regenerative pilot funded', 'Pollinator Decline': 'Dependency quantified', 'Nature Dependency': 'LEAP assessment done',
+  'Carbon Pricing': 'Internal carbon price set', 'Policy Risk': 'Transition plan published', 'Litigation Risk': 'Claims substantiated', 'Reputational Risk': 'Said it, did it',
+  'Tech Disruption': 'Capex redirected', 'Market Shift': 'Portfolio rebalanced', 'Supply Chain Shock': 'Second source secured', 'Resource Scarcity': 'Circular loop closed',
+  'Insurance Retreat': 'Still insurable', 'Cost of Capital': 'Lenders reassured', 'Tipping Point': 'Not today', 'Compound Risk': 'Correlations modelled',
+
+  'Impact Materiality': 'Inside-out: covered', 'Financial Materiality': 'CFO was in the room', 'IROs': 'IRO register up to date', 'Value Chain Mapping': 'Tier 2 found',
+  'Stakeholder Engagement': 'Decent response rate!', 'Topic Long-List': 'Long-list shortened', 'Severity': 'Scale × scope × irremediability', 'Scale': 'How grave: scored',
+  'Scope': 'How widespread: scored', 'Irremediability': 'Spelled correctly, even', 'Likelihood': 'Agreed after three meetings', 'Magnitude': 'Quantified, with a range',
+  'Time Horizons': 'Short, medium, long: defined', 'Thresholds': 'Threshold defended to the auditor', 'Scoring Method': 'One scale, finally', 'Actual vs Potential': 'Classified',
+  'Risks': 'In the risk register', 'Opportunities': 'Someone remembered these', 'ESRS 1': 'Chapter 3 re-read', 'Sub-Topics': 'Sub-sub-topics too',
+  'Affected Stakeholders': 'Heard, not just surveyed', 'Dependencies': 'Mapped', 'Audit Trail': 'Evidence filed', 'Materiality Matrix': 'Optional, actually',
+
+  'GHG Protocol': 'By the book', 'Scope 1': 'Fleet fuel found', 'Scope 2 Location-Based': 'Grid average applied', 'Scope 2 Market-Based': 'Contracts and RECs matched',
+  'Emission Factors': 'Right vintage, right region', 'Base Year Recalc': 'Restated. Again.', '3.1 Purchased Goods': 'Spend-based, for now', '3.2 Capital Goods': 'Capex captured',
+  '3.3 Fuel & Energy': 'T&D losses added', '3.4 Upstream Transport': 'Tonne-km tallied', '3.5 Waste': 'Waste weighed', '3.6 Business Travel': 'Flights logged',
+  '3.7 Commuting': 'Commute survey closed', '3.8 Upstream Leased': 'Lease register found', '3.9 Downstream Transport': 'Who paid? Sorted', '3.10 Processing': 'Intermediates mapped',
+  '3.11 Use of Sold Products': 'Lifetime use modelled', '3.12 End-of-Life': 'Disposal assumed, documented', '3.13 Downstream Leased': 'Tenant data received', '3.14 Franchises': 'Franchisees replied',
+  '3.15 Investments': 'Financed emissions done', 'Activity Data': 'Meter readings in', 'Org Boundary': 'Operational control it is', 'Double Counting': 'Counted once',
+
+  'Investor Questionnaire': 'Submitted. Portal held.', 'CDP Request': 'In before the deadline', 'Ratings Agency Query': 'Score corrected', 'Customer RFP': 'Tab 7 of 12 done',
+  'Board Deck by Monday': 'Three slides. They read one.', 'CFO: “What’s the ROI?”': 'Business case accepted', 'Quick Question…': 'Answered in one line',
+  'Per My Last Email': 'As previously attached', 'v7_FINAL_final.xlsx': 'Single source of truth', 'Meeting → Email': 'Hour reclaimed', 'Supplier Data Chase': 'Supplier replied!',
+  'Auditor PBC List': 'Evidence uploaded', 'Legal Review': 'Redlines accepted', 'NGO Open Letter': 'Thoughtful reply sent', 'Town Hall Q&A': 'Good question, answered',
+  'Procurement Survey': 'Survey 14 of 30 done', 'Small Ask': 'Politely declined', '“Can You Resend?”': 'Resent. Again.', 'Comms: “Make It Punchy”': 'Punchy and accurate',
+  'Site Data: “Soon”': 'Site data arrived', 'Regulator Inquiry': 'Responded in full', 'URGENT!!': 'Was not urgent', 'AGM Question': 'Chair briefed', '“Needed by EOD”': 'Delivered by EOD'
+};
+
+/* Difficulty: m = formation speed and incoming-fire rate vs the original build, b = projectile speed, x = extra shots in the air, s = score multiplier */
+var DIFFS = {
+  low:  { name: 'Low',    m: 1.2, b: 1.0,  x: 0, s: 1 },
+  med:  { name: 'Medium', m: 1.5, b: 1.12, x: 1, s: 1.5 },
+  high: { name: 'High',   m: 1.9, b: 1.25, x: 2, s: 2 }
+};
+
+/* Every link to novisto.com carries UTMs. content says which spot was clicked. */
+function novistoUrl(content, base) {
+  var u = base || 'https://novisto.com/', q = 'utm_source=disclosure-defenders&utm_medium=referral&utm_campaign=disclosure-defenders&utm_content=' + encodeURIComponent(content);
+  if (!/^https?:\/\/([a-z0-9-]+\.)*novisto\.com(\/|$|\?|#)/i.test(u) || /[?&]utm_source=/.test(u)) return u;   // other sites, or already tagged
+  var h = u.indexOf('#'), hash = h >= 0 ? u.slice(h) : ''; if (h >= 0) u = u.slice(0, h);
+  u = u.replace(/^(https?:\/\/[^\/?]+)(\?|$)/i, '$1/$2');   // always a slash between the domain and the "?"
+  return u + (u.indexOf('?') < 0 ? '?' : '&') + q + hash;
+}
+/* ───────────── Setup ───────────── */
+var root = document.getElementById('dd-root'), stage = document.getElementById('dd-stage'),
+    cv = document.getElementById('dd-canvas'), ctx = cv.getContext('2d'),
+    ov = document.getElementById('dd-overlay'), card = document.getElementById('dd-card');
+var touch = window.matchMedia && window.matchMedia('(pointer: coarse)').matches;
+if (touch) root.classList.add('dd-touch');
+var portrait = window.innerHeight > window.innerWidth * 1.15;
+if (portrait) root.classList.add('dd-port');
+var W = portrait ? 480 : 800, H = portrait ? 760 : 600;
+var COLS = portrait ? 4 : 6, CW = portrait ? 104 : 106, CH = 36, PW = CW - 8, PH = 30, DROP = portrait ? 8 : 12, TOP = 84;
+var SHIELD_Y = H - 150, PLAYER_Y = H - 64;
+var SANS = 'ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif';
+var MONO = 'ui-monospace, SFMono-Regular, Menlo, Consolas, monospace';
+
+/* Rendering budget. Text and blur are slow to draw in Safari, so anything that does not change every frame is drawn once
+   into a small offscreen canvas (a sprite) and then copied, and the canvas never exceeds MAX_PIXELS. */
+var MAX_PIXELS = 2400000, SPR = {}, sprN = 0, sprScale = 1;
+function sprite(key, w, h, paint) {
+  var c = SPR[key]; if (c) return c;
+  if (++sprN > 800) { SPR = {}; sprN = 1; }
+  c = document.createElement('canvas'); c.width = Math.max(1, Math.ceil(w * sprScale)); c.height = Math.max(1, Math.ceil(h * sprScale));
+  var main = ctx; ctx = c.getContext('2d'); ctx.scale(sprScale, sprScale); ctx.textBaseline = 'middle';
+  try { paint(); } finally { ctx = main; }
+  return (SPR[key] = c);
+}
+function resize() {
+  var availH = window.innerHeight - (touch ? 96 : 34), s = Math.min(window.innerWidth / W, availH / H);
+  s = Math.max(0.3, s);
+  var dpr = Math.min(window.devicePixelRatio || 1, 2), cssPx = W * s * H * s;
+  if (cssPx * dpr * dpr > MAX_PIXELS) dpr = Math.max(1, Math.sqrt(MAX_PIXELS / cssPx));
+  stage.style.setProperty('--s', s.toFixed(3));
+  stage.style.width = Math.floor(W * s) + 'px'; stage.style.height = Math.floor(H * s) + 'px';
+  stage.style.fontSize = Math.max(11, Math.min(17, 16 * s * (portrait ? 1.25 : 1))) + 'px';
+  cv.width = Math.floor(W * s * dpr); cv.height = Math.floor(H * s * dpr);
+  ctx.setTransform(cv.width / W, 0, 0, cv.height / H, 0, 0);
+  sprScale = cv.width / W; SPR = {}; sprN = 0;
+}
+window.addEventListener('resize', resize); resize();
+
+var rnd = function (a, b) { return a + Math.random() * (b - a); };
+var pick = function (a) { return a[(Math.random() * a.length) | 0]; };
+var clamp = function (v, a, b) { return v < a ? a : v > b ? b : v; };
+
+/* audio */
+var AC = null, muted = false;
+function beep(f, d, type, v, slide) {
+  if (muted) return;
+  try {
+    AC = AC || new (window.AudioContext || window.webkitAudioContext)();
+    if (AC.state === 'suspended') AC.resume();
+    var o = AC.createOscillator(), g = AC.createGain(), n = AC.currentTime;
+    o.type = type || 'square'; o.frequency.setValueAtTime(f, n);
+    if (slide) o.frequency.exponentialRampToValueAtTime(Math.max(30, f + slide), n + d);
+    g.gain.setValueAtTime(v || 0.04, n); g.gain.exponentialRampToValueAtTime(0.0001, n + d);
+    o.connect(g); g.connect(AC.destination); o.start(n); o.stop(n + d);
+  } catch (e) {}
+}
+
+/* storage */
+var hi = 0;
+try { hi = parseInt(localStorage.getItem('dd-hi') || '0', 10) || 0; } catch (e) {}
+var diff = 'med';
+try { var sd = localStorage.getItem('dd-diff'); if (DIFFS[sd]) diff = sd; } catch (e) {}
+function D() { return DIFFS[diff]; }
+function saveHi() { if (score > hi) { hi = score; try { localStorage.setItem('dd-hi', String(hi)); } catch (e) {} } }
+
+/* ───────────── High-score board ───────────── */
+/* House scores, like the defaults an arcade cabinet ships with. Single-level boards use these; the full-cycle board uses 5x. */
+var NAME_MAX = 24;
+var HOUSE = [['The Assurance Provider', 4200], ['CFO (Skeptical)', 3600], ['Scope 3 Sleuth', 3100], ['Audit Intern, Day 2', 2700], ['Materiality Maverick', 2300],
+  ['Head of Spreadsheets', 1900], ['Baseline Year Bandit', 1500], ['Omnibus Survivor', 1100], ['Supplier (Still Chasing)', 800], ['Reply-All Rita', 500]];
+var ALIASES = ['Captain Assurance', 'Datapoint Whisperer', 'Category 11 Crusher', 'Omnibus Optimist', 'Emission Factor Fan', 'Restated Baseline', 'Tonne-km Tallier', 'IRO Wrangler',
+  'PBC List Slayer', 'Stop-the-Clock Sam', 'Inside-Out Ivy', 'Market-Based Max', 'Wave 2 Warrior', 'tCO2e Tamer', 'Audit Trail Blazer', 'Double Materiality Dee',
+  'Scope 2 Sorcerer', 'Taxonomy Tamer', 'XBRL Tagger Supreme', 'Limited Assurance Liz', 'Base Year Boss', 'Value Chain Voyager', 'Threshold Thelma', 'Spend-Based Spencer',
+  'Transition Plan Tess', 'Primary Data Pat', 'ESRS E1 Enjoyer', 'Datapoint Dan', 'Location-Based Lou', 'Supplier Survey Sue', 'Greenhushing Gus', 'Materiality Matrix Max',
+  'Carbon Price Cass', 'Audit Committee Al', 'Net Zero Nora', 'Footnote Finder', 'Evidence Locker Eli', 'Double Count Dodger', 'Scenario Sam', 'Board Pack Bea'];
+var BRAG = { all: 'got through a full reporting cycle', compliance: 'survived the regulatory alphabet, policy shifts and all', risk: 'kept my assets from getting stranded',
+  'double-materiality': 'assessed every topic through both lenses', 'carbon-accounting': 'accounted for all 15 Scope 3 categories', stakeholders: 'answered every stakeholder before EOD' };
+var DARE = { all: 'Someone on your team thinks they would have filed faster.', compliance: 'Someone on your team thinks they know the Omnibus better than you.',
+  risk: 'Someone on your team thinks they would have saved the factory.', 'double-materiality': 'Someone on your team thinks they can score a topic in one meeting.',
+  'carbon-accounting': 'Someone on your team thinks they are better at Scope 3 than you.', stakeholders: 'Someone on your team claims a faster reply time. Allegedly.' };
+var store = {}, remote = {}, seenNames = {}, boardOpen = null, chal = null, rivals = [], myName = '', lastKind = '';
+var playerId = '';   // random, anonymous ID for this browser: lets the board keep one best score per player
+try { store = JSON.parse(localStorage.getItem('dd-board') || '{}') || {}; myName = cleanName(localStorage.getItem('dd-name')); playerId = localStorage.getItem('dd-player') || ''; } catch (e) { store = {}; }
+if (!/^[a-z0-9]{12,40}$/.test(playerId)) {
+  playerId = ''; for (var pi = 0; pi < 20; pi++) playerId += 'abcdefghijklmnopqrstuvwxyz0123456789'.charAt(Math.random() * 36 | 0);
+  try { localStorage.setItem('dd-player', playerId); } catch (e) {}
+}
+ALIASES.forEach(function (a) { if (a.length > 18) {
+  if (myName === a.slice(0, 18)) myName = a;
+  for (var k in store) if (store[k] && store[k].n === a.slice(0, 18)) store[k].n = a;
+} });
+for (var sk in store) { // older saves kept several runs per board: keep only the best one
+  var sv = [].concat(store[sk]).filter(function (e) { return e && e.s > 0; }).sort(function (a, b) { return b.s - a.s; })[0];
+  if (sv) store[sk] = { n: cleanName(sv.n) || 'Anonymous Analyst', s: sv.s, d: sv.d, me: 1 }; else delete store[sk];
+}
+function takenNames() { // names other players (or the house) already use
+  var t = {}; HOUSE.forEach(function (h) { t[h[0].toLowerCase()] = 1; });
+  for (var k in seenNames) t[k] = 1;
+  return t;
+}
+function pickAlias(not) {
+  var t = takenNames(), free = ALIASES.filter(function (a) { return !t[a.toLowerCase()] && a !== not; });
+  if (free.length) return pick(free);
+  var base = pick(ALIASES).slice(0, NAME_MAX - 3), n; do { n = base + ' ' + (2 + (Math.random() * 98 | 0)); } while (t[n.toLowerCase()]);
+  return n;
+}
+function esc(t) { return String(t).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
+function cleanName(t) { return String(t || '').replace(/[<>&"'\u0000-\u001f]/g, '').replace(/\s+/g, ' ').trim().slice(0, NAME_MAX); }
+function fmt(n) { return Number(n).toLocaleString('en-US'); }
+function boardKey() { return mode === 'campaign' ? 'all' : L.slug; }
+function myBest(key) {
+  var local = store[key], mine = (remote[key] || []).filter(function (e) { return e.me; })[0];
+  return local && (!mine || local.s >= mine.s) ? local : mine || null;
+}
+function board(key) {
+  var k = key === 'all' ? 5 : 1, rows = HOUSE.map(function (h) { return { n: h[0], s: h[1] * k }; }), best = myBest(key);
+  (remote[key] || []).forEach(function (e) { if (!e.me) rows.push(e); });
+  if (best) rows.push(best);
+  if (chal && chal.key === key) rows.push(chal);
+  return rows.sort(function (a, b) { return b.s - a.s; });
+}
+function addScore(key, name) {
+  var e = { n: name, s: score, d: diff, me: 1 };
+  store[key] = e;
+  try { localStorage.setItem('dd-board', JSON.stringify(store)); localStorage.setItem('dd-name', name); } catch (er) {}
+  if (CONFIG.leaderboardUrl) {
+    var body = JSON.stringify({ board: key, name: name, score: score, difficulty: diff, player: playerId });
+    var post = function (attempt) {
+      try {
+        fetch(CONFIG.leaderboardUrl, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: body }).then(function (r) {
+          if (r.status === 429 && attempt < 3) { setTimeout(function () { post(attempt + 1); }, 9000); return null; }
+          return r.json();
+        }).then(function (a) { if (a) setRemote(key, a); }).catch(function () {});
+      } catch (er) {}
+    };
+    post(1);
+  }
+  return e;
+}
+function setRemote(key, a) {
+  if (!Array.isArray(a)) return;
+  remote[key] = a.slice(0, 50).filter(function (x) { return x && typeof x === 'object'; })
+    .map(function (x) { return { n: cleanName(x.name), s: +x.score || 0, d: x.difficulty, me: x.mine === true ? 1 : 0 }; }).filter(function (x) { return x.n && x.s > 0; });
+  remote[key].forEach(function (x) {
+    if (!x.me) seenNames[x.n.toLowerCase()] = 1;
+    else if (store[key] && store[key].n !== x.n && store[key].s === x.s) { // the board renamed us to keep names unique
+      store[key].n = x.n; if (myName && myName.toLowerCase() !== x.n.toLowerCase()) myName = x.n;
+      try { localStorage.setItem('dd-board', JSON.stringify(store)); localStorage.setItem('dd-name', myName); } catch (e) {}
+    }
+  });
+  if (state === 'intro' || state === 'play') rivals = board(boardKey());
+  if (boardOpen && boardOpen.key === key && ovCb) showBoard(key, boardOpen.me, boardOpen.fromTitle, true);
+}
+function loadRemote(key) {
+  if (!CONFIG.leaderboardUrl) return;
+  try {
+    fetch(CONFIG.leaderboardUrl + (CONFIG.leaderboardUrl.indexOf('?') < 0 ? '?' : '&') + 'board=' + key + '&player=' + playerId)
+      .then(function (r) { return r.json(); }).then(function (a) { setRemote(key, a); }).catch(function () {});
+  } catch (er) {}
+}
+function rankTitle() {
+  var v = score / (mode === 'campaign' ? 5 : 1);
+  return v < 800 ? 'Sustainability Analyst' : v < 1800 ? 'ESG Manager' : v < 3000 ? 'Head of Sustainability' : 'Chief Sustainability Officer';
+}
+/* sharing */
+function shareUrl(key, medium, withScore) {
+  var base = CONFIG.shareBase || location.href.split(/[?#]/)[0].replace(/[^\/]*$/, ''), q = [];
+  if (medium) q.push('utm_source=game&utm_medium=' + medium + '&utm_campaign=disclosure-defenders');
+  if (withScore) q.push('beat=' + score + '&by=' + encodeURIComponent(myName || 'A colleague'));
+  return base + (key !== 'all' && CONFIG.levelPages ? key + '.html' : '') + (q.length ? '?' + q.join('&') : '') + (key !== 'all' && !CONFIG.levelPages ? '#' + key : '');
+}
+function shareText(key, withScore) {
+  if (!withScore) return 'Disclosure Defenders: an arcade game for sustainability teams. Five levels, one reporting cycle, no extensions.';
+  var cleared = lastKind === 'win' ? 5 : li, grid = '';
+  if (key === 'all') { for (var i = 0; i < 5; i++) grid += i < cleared ? '🟩' : '⬜'; grid += ' '; }
+  return grid + 'I scored ' + fmt(score) + ' on Disclosure Defenders ' + (lastKind === 'over' ? 'before ' + L.name + ' got me' : 'and ' + BRAG[key]) + '. Rank: ' + rankTitle() + '. Can you beat it?';
+}
+function copyText(text, btn) {
+  var done = function () { var o = btn.textContent; btn.textContent = 'Copied. Now send it to them.'; setTimeout(function () { btn.textContent = o; }, 2200); };
+  var fb = function () { try { var ta = document.createElement('textarea'); ta.value = text; ta.style.cssText = 'position:fixed;opacity:0'; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); ta.remove(); done(); } catch (e) {} };
+  try { navigator.clipboard.writeText(text).then(done, fb); } catch (e) { fb(); }
+}
+
+/* text fitting */
+function split2(label) {
+  var w = label.split(' '); if (w.length < 2) return null;
+  var best = null, bw = 1e9;
+  for (var i = 1; i < w.length; i++) {
+    var a = w.slice(0, i).join(' '), b = w.slice(i).join(' '), m = Math.max(ctx.measureText(a).width, ctx.measureText(b).width);
+    if (m < bw) { bw = m; best = [a, b]; }
+  }
+  return { lines: best, w: bw };
+}
+function fit(label, maxW) {
+  for (var s = 12; s >= 8; s--) {
+    ctx.font = '700 ' + s + 'px ' + SANS;
+    if (ctx.measureText(label).width <= maxW) return { lines: [label], size: s };
+    if (s <= 11) { var t = split2(label); if (t && t.w <= maxW) return { lines: t.lines, size: s }; }
+  }
+  ctx.font = '700 8px ' + SANS; var t2 = split2(label);
+  return { lines: t2 ? t2.lines : [label], size: 8 };
+}
+function rr(x, y, w, h, r) {
+  ctx.beginPath();
+  ctx.moveTo(x + r, y); ctx.arcTo(x + w, y, x + w, y + h, r); ctx.arcTo(x + w, y + h, x, y + h, r);
+  ctx.arcTo(x, y + h, x, y, r); ctx.arcTo(x, y, x + w, y, r); ctx.closePath();
+}
+
+/* ───────────── State ───────────── */
+var state = 'title', li = 0, L = LEVELS[0], score = 0, levelStartScore = 0, lives = CONFIG.startLives, time = 0;
+var player, enemies, total, pBul, eBul, shields, parts, pops, ufo, form, tm, banner, rapid, stats;
+var keys = { left: false, right: false, fire: false, special: false };
+var mode = 'campaign', streak = 0, charge = 0, shake = 0, flashT = 0, shiftN = 0;
+var stars = []; for (var i = 0; i < 70; i++) stars.push({ x: Math.random() * W, y: Math.random() * H, s: rnd(0.6, 1.6), p: Math.random() * 6 });
+
+function startLevel(n) {
+  li = n; L = LEVELS[n]; levelStartScore = score;
+  root.style.setProperty('--acc', L.accent);
+  var rows = Math.ceil(L.enemies.length / COLS);
+  enemies = L.enemies.map(function (d, i) {
+    var o = d[2] || {}, labels = Array.isArray(d[0]) ? d[0] : [d[0]], row = (i / COLS) | 0;
+    var hp = L.dual ? 2 : (o.hp || 1);
+    var e = { labels: labels, mi: 0, cat: d[1], col: i % COLS, row: row, hp: hp, max: hp, dive: !!o.dive, diving: false, warn: 0, flash: 0,
+      pts: (20 + 10 * (4 - Math.floor(row * 4 / rows))) * (hp > 1 ? hp : 1) + (o.dive ? 30 : 0), mt: rnd(1.5, 3.2), x: 0, y: 0 };
+    e.txt = fit(labels[0], PW - 10); return e;
+  });
+  total = enemies.length;
+  form = { x: (W - COLS * CW) / 2, y: TOP, dir: 1 };
+  player = { x: W / 2, y: PLAYER_Y, cd: 0, inv: 1 };
+  pBul = []; eBul = []; parts = []; pops = []; ufo = null; rapid = 0; banner = null;
+  tm = { fire: 1.5, ufo: rnd(10, 16), dive: rnd(4, 7), shift: 10 };
+  rivals = board(boardKey()); loadRemote(boardKey()); if (boardKey() !== 'all') loadRemote('all');
+  stats = { shots: 0, hits: 0, t: 0 }; streak = 0; charge = 0; shake = 0; flashT = 0;
+  var n2 = portrait ? 3 : 4; shields = [];
+  for (var s = 0; s < n2; s++) {
+    var cells = []; for (var c = 0; c < 40; c++) cells.push(1);
+    shields.push({ x: W * (s + 1) / (n2 + 1) - 30, y: SHIELD_Y, cells: cells, label: L.shields[s], dead: false });
+  }
+}
+function ex(e) { return e.diving ? e.x : form.x + e.col * CW + 4; }
+function ey(e) { return e.diving ? e.y : form.y + e.row * CH + 3; }
+function say(txt, col, dur) { banner = { txt: txt, col: col || '#fff', t: dur || 1.6, d: dur || 1.6 }; }
+function pop(x, y, txt, col, dur) { pops.push({ x: x, y: y, txt: txt, col: col || '#fff', t: dur || 0.9 }); }
+function burst(x, y, col, n) { for (var i = 0; i < n; i++) parts.push({ x: x, y: y, vx: rnd(-140, 140), vy: rnd(-160, 60), t: rnd(0.3, 0.7), col: col }); }
+function catCol(e) { return L.cats[e.cat][0]; }
+
+function mult() { return 1 + Math.min(4, (streak / 5) | 0); }
+function kill(e, viaSpecial) {
+  enemies.splice(enemies.indexOf(e), 1);
+  var pts = Math.round(e.pts * D().s * mult() / 10) * 10; score += pts;
+  if (!viaSpecial && charge < 10) { charge++; if (charge === 10) beep(880, 0.25, 'triangle', 0.05, 600); }
+  shake = Math.max(shake, e.max > 1 ? 0.25 : 0.12);
+  burst(ex(e) + PW / 2, ey(e) + PH / 2, catCol(e), 18);
+  pop(ex(e) + PW / 2, ey(e), (QUIPS[e.labels[0]] || pick(L.pops)) + ' +' + pts, L.accent, 1.4);
+  beep(200 + Math.min(streak, 20) * 14, 0.14, 'square', 0.05, -120);
+}
+function fireSpecial() {
+  if (state !== 'play' || charge < 10) return;
+  charge = 0; eBul = []; shake = 0.5; flashT = 0.25;
+  var cols = {};
+  enemies.forEach(function (e) { if (!e.diving && (!cols[e.col] || e.row > cols[e.col].row)) cols[e.col] = e; });
+  Object.keys(cols).map(function (k) { return cols[k]; }).concat(enemies.filter(function (e) { return e.diving; })).forEach(function (e, i) { kill(e, true); pops[pops.length - 1].y -= (i % 3) * 15; });
+  say(L.special, '#fff', 1.6); beep(200, 0.6, 'sawtooth', 0.06, 1200);
+}
+function hurt(msg) {
+  if (state !== 'play') return;
+  lives--; streak = 0; shake = 0.45; player.inv = 2.2; eBul = []; burst(player.x, player.y, '#ff6b6b', 24); beep(160, 0.5, 'sawtooth', 0.07, -120);
+  if (msg) say(msg, '#ff8f8f');
+  if (lives <= 0) { state = 'over'; saveHi(); setTimeout(showOver, 700); }
+}
+
+/* ───────────── Update ───────────── */
+function update(dt) {
+  time += dt; stats.t += dt;
+  var mv = (keys.right ? 1 : 0) - (keys.left ? 1 : 0);
+  player.x = clamp(player.x + mv * 330 * dt, 26, W - 26);
+  player.cd -= dt; player.inv -= dt; rapid -= dt; shake = Math.max(0, shake - dt); flashT -= dt;
+  if (keys.special) { keys.special = false; fireSpecial(); }
+  if (keys.fire && player.cd <= 0) {
+    pBul.push({ x: player.x, y: player.y - 18 }); stats.shots++;
+    player.cd = rapid > 0 ? 0.13 : (L.fireCd || 0.36); beep(900, 0.07, 'square', 0.025, -500);
+  }
+
+  // formation
+  var live = enemies.filter(function (e) { return !e.diving; });
+  if (live.length) {
+    var minC = 99, maxC = -1, maxR = -1;
+    live.forEach(function (e) { if (e.col < minC) minC = e.col; if (e.col > maxC) maxC = e.col; if (e.row > maxR) maxR = e.row; });
+    var sp = (20 + li * 4) * (1 + 2.4 * (1 - live.length / total)) * D().m;
+    form.x += form.dir * sp * dt;
+    var left = form.x + minC * CW, right = form.x + (maxC + 1) * CW;
+    if ((right > W - 6 && form.dir > 0) || (left < 6 && form.dir < 0)) { form.dir *= -1; form.y += DROP; }
+    if (form.y + (maxR + 1) * CH >= SHIELD_Y - 4) { form.y = TOP; if (state === 'play') hurt(L.breach); }
+
+    // enemy fire
+    tm.fire -= dt;
+    if (tm.fire <= 0 && eBul.length < 3 + li + D().x) {
+      tm.fire = rnd(0.55, 1.4) * Math.max(0.5, 1 - li * 0.09) / D().m;
+      var col = pick(live).col, sh = null;
+      live.forEach(function (e) { if (e.col === col && (!sh || e.row > sh.row)) sh = e; });
+      eBul.push({ x: ex(sh) + PW / 2, y: ey(sh) + PH, v: (170 + li * 18) * D().b });
+    }
+    // divers
+    tm.dive -= dt;
+    if (tm.dive <= 0) {
+      tm.dive = rnd(4.5, 8) / D().m;
+      var ds = live.filter(function (e) { return e.dive && e.warn <= 0; });
+      if (ds.length) pick(ds).warn = 0.9;
+    }
+    // policy shift
+    if (L.policyShift) {
+      tm.shift -= dt;
+      if (tm.shift <= 0) {
+        tm.shift = rnd(10, 14); form.dir *= -1; form.y += DROP;
+        enemies.forEach(function (e) { if (e.labels.length > 1) e.mt = 0; });
+        say(L.shifts[shiftN++ % L.shifts.length], '#ffd166', 1.8); beep(300, 0.3, 'triangle', 0.06, 400);
+      }
+    }
+  }
+
+  enemies.forEach(function (e) {
+    e.flash -= dt;
+    if (e.labels.length > 1) { e.mt -= dt; if (e.mt <= 0) { e.mt = rnd(2, 3.4); e.mi = (e.mi + 1) % e.labels.length; e.txt = fit(e.labels[e.mi], PW - 10); e.flash = 0.12; } }
+    if (e.warn > 0 && !e.diving) { e.warn -= dt; if (e.warn <= 0) { e.x = ex(e); e.y = ey(e); e.diving = true; beep(700, 0.4, 'sawtooth', 0.04, -500); } }
+    if (e.diving) {
+      e.y += (170 + li * 12) * D().b * dt;
+      if (player.inv <= 0 && Math.abs(e.x + PW / 2 - player.x) < PW / 2 + 18 && e.y + PH > player.y - 10 && e.y < player.y + 12) {
+        enemies.splice(enemies.indexOf(e), 1); hurt(L.missPop + '!');
+      } else if (e.y > H) {
+        enemies.splice(enemies.indexOf(e), 1); score = Math.max(0, score - 50); pop(clamp(e.x + PW / 2, 60, W - 60), H - 96, L.missPop + ' −50', '#ff8f8f');
+      }
+    }
+  });
+
+  // bonus ship
+  tm.ufo -= dt;
+  if (!ufo && tm.ufo <= 0 && live.length > 3) {
+    var d = Math.random() < 0.5 ? 1 : -1; ctx.font = '800 11px ' + SANS;
+    var uw = ctx.measureText(L.ufo).width + 26;
+    ufo = { x: d > 0 ? -uw : W, y: 50, w: uw, d: d }; beep(520, 0.25, 'sine', 0.04, 300);
+  }
+  if (ufo) { ufo.x += ufo.d * 115 * dt; if (ufo.x > W + 10 || ufo.x < -ufo.w - 10) { ufo = null; tm.ufo = rnd(14, 22); } }
+
+  // player bullets
+  for (var i = pBul.length - 1; i >= 0; i--) {
+    var b = pBul[i]; b.y -= 540 * dt; var gone = b.y < 36; if (gone) streak = 0;
+    if (!gone && ufo && b.x > ufo.x && b.x < ufo.x + ufo.w && b.y < ufo.y + 22 && b.y > ufo.y - 4) {
+      var up = Math.round(300 * D().s); score += up; stats.hits++; streak++; rapid = 7; burst(ufo.x + ufo.w / 2, ufo.y + 10, '#fff', 22);
+      pop(clamp(ufo.x + ufo.w / 2, 90, W - 90), ufo.y + 30, L.ufoPop + ' +' + up, '#fff', 1.4); say('RAPID FIRE', L.accent, 1.2);
+      beep(500, 0.4, 'triangle', 0.06, 900); ufo = null; tm.ufo = rnd(14, 22); gone = true;
+    }
+    if (!gone) for (var j = 0; j < enemies.length; j++) {
+      var e = enemies[j], x = ex(e), y = ey(e);
+      if (b.x > x && b.x < x + PW && b.y > y && b.y < y + PH) {
+        gone = true; stats.hits++; streak++; e.hp--; e.flash = 0.1;
+        if (e.hp <= 0) kill(e);
+        else { beep(440, 0.06, 'square', 0.04); if (L.dual) pop(x + PW / 2, y, 'Impact ✓ inside-out', '#5fd6c4'); }
+        break;
+      }
+    }
+    if (!gone && hitShield(b.x, b.y, 2)) gone = true;
+    if (gone) pBul.splice(i, 1);
+  }
+  // enemy bullets
+  for (i = eBul.length - 1; i >= 0; i--) {
+    var q = eBul[i]; q.y += q.v * dt; var g2 = q.y > H - 30;
+    if (!g2 && hitShield(q.x, q.y, 3)) g2 = true;
+    if (!g2 && player.inv <= 0 && Math.abs(q.x - player.x) < 22 && q.y > player.y - 12 && q.y < player.y + 12) { hurt(); break; }   // hurt() clears every enemy shot, so stop iterating
+    if (g2) eBul.splice(i, 1);
+  }
+  for (i = parts.length - 1; i >= 0; i--) { var p = parts[i]; p.t -= dt; p.x += p.vx * dt; p.y += p.vy * dt; p.vy += 300 * dt; if (p.t <= 0) parts.splice(i, 1); }
+  for (i = pops.length - 1; i >= 0; i--) { pops[i].t -= dt; pops[i].y -= 28 * dt; if (pops[i].t <= 0) pops.splice(i, 1); }
+  if (banner) { banner.t -= dt; if (banner.t <= 0) banner = null; }
+
+  if (state === 'play' && enemies.length === 0) { state = 'clear'; saveHi(); beep(523, 0.15, 'triangle', 0.06); setTimeout(function () { beep(784, 0.3, 'triangle', 0.06); }, 150); setTimeout(showClear, 800); }
+}
+function hitShield(bx, by, n) {
+  for (var s = 0; s < shields.length; s++) {
+    var sh = shields[s];
+    if (bx < sh.x - 2 || bx > sh.x + 62 || by < sh.y - 2 || by > sh.y + 26) continue;
+    var cx = clamp(((bx - sh.x) / 6) | 0, 0, 9), cy = clamp(((by - sh.y) / 6) | 0, 0, 3), hit = false;
+    for (var dx = -1; dx <= 1 && n > 0; dx++) for (var dy = -1; dy <= 1 && n > 0; dy++) {
+      var X = cx + (dx === 0 ? 0 : dx), Y = cy + dy; if (X < 0 || X > 9 || Y < 0 || Y > 3) continue;
+      if ((dx === 0 && dy === 0) || hit) { if (sh.cells[Y * 10 + X]) { sh.cells[Y * 10 + X] = 0; hit = true; n--; } }
+    }
+    if (!hit) { // look along the column for the nearest live cell
+      for (var yy = 0; yy < 4; yy++) if (sh.cells[yy * 10 + cx]) { sh.cells[yy * 10 + cx] = 0; hit = true; break; }
+    }
+    if (hit) {
+      var left = sh.cells.reduce(function (a, c) { return a + c; }, 0);
+      if (left < 8 && !sh.dead) { sh.dead = true; sh.cells = sh.cells.map(function () { return 0; }); pop(sh.x + 30, sh.y - 6, sh.label + ': ' + L.shieldDead, '#ff8f8f'); beep(120, 0.4, 'sawtooth', 0.05); }
+      return true;
+    }
+  }
+  return false;
+}
+
+/* ───────────── Draw ───────────── */
+function draw() {
+  ctx.clearRect(0, 0, W, H);
+  ctx.fillStyle = '#9fb4e0';
+  stars.forEach(function (s) { ctx.globalAlpha = 0.25 + 0.25 * Math.sin(time * 1.5 + s.p); ctx.fillRect(s.x, s.y, s.s, s.s); });
+  ctx.globalAlpha = 1;
+  if (state === 'title') return;
+  ctx.save(); if (shake > 0) ctx.translate(rnd(-1, 1) * shake * 14, rnd(-1, 1) * shake * 14);
+
+  // HUD
+  ctx.textBaseline = 'middle'; ctx.font = '700 13px ' + MONO; ctx.fillStyle = '#e8eefc'; ctx.textAlign = 'left';
+  ctx.fillText('SCORE ' + ('00000' + score).slice(-6) + (mult() > 1 ? '  x' + mult() : ''), 12, 20);
+  ctx.textAlign = 'center'; ctx.fillStyle = L.accent; ctx.font = '700 12px ' + MONO;
+  ctx.fillText((li + 1) + '/5 ' + (portrait && L.name.length > 12 ? L.name.split(' ')[0] : L.name).toUpperCase(), W / 2, 20);
+  for (var i = 0; i < lives; i++) leaf(W - 18 - i * 20, 20, 7);
+  ctx.fillStyle = '#1c2740'; ctx.fillRect(0, 36, W, 1);
+
+  // ground
+  ctx.fillStyle = L.accent; ctx.globalAlpha = 0.5; ctx.fillRect(0, H - 30, W, 2); ctx.globalAlpha = 1;
+  ctx.font = '700 11px ' + MONO; ctx.textAlign = 'left';
+  if (charge >= 10) { ctx.fillStyle = Math.floor(time * 4) % 2 ? '#fff' : L.accent; ctx.fillText((touch ? '★ ' : '[X] ') + L.special, 12, H - 14); }
+  else { ctx.fillStyle = '#6f7c99'; ctx.fillText('SPECIAL', 12, H - 14); for (var c2 = 0; c2 < 10; c2++) { ctx.fillStyle = c2 < charge ? L.accent : '#25324f'; ctx.fillRect(66 + c2 * 7, H - 19, 5, 9); } }
+  if (rapid > 0) { ctx.textAlign = 'center'; ctx.fillStyle = L.accent; ctx.fillText('RAPID FIRE ' + Math.ceil(rapid) + 's', W / 2, H - 40); }
+  ctx.font = '700 11px ' + MONO; ctx.textAlign = 'right'; var rv = null; for (i = rivals.length - 1; i >= 0; i--) if (rivals[i].s > score) { rv = rivals[i]; break; }
+  ctx.fillStyle = rv ? '#6f7c99' : L.accent; ctx.fillText(rv ? (rv.me ? 'BEAT YOUR BEST ' : 'BEAT ' + rv.n.toUpperCase().slice(0, portrait ? 16 : 26) + ' ') + rv.s : 'TOP OF THE BOARD', W - 12, H - 14);
+
+  // shields
+  shields.forEach(function (sh) {
+    ctx.fillStyle = L.accent;
+    for (var c = 0; c < 40; c++) if (sh.cells[c]) ctx.fillRect(sh.x + (c % 10) * 6, sh.y + ((c / 10) | 0) * 6, 5.5, 5.5);
+    var lt = sh.dead ? L.shieldDead : sh.label.toUpperCase(), lc = sh.dead ? '#ff8f8f' : '#8fa0c2';
+    ctx.drawImage(sprite('s|' + lt + '|' + lc, 110, 14, function () { ctx.font = '700 9px ' + MONO; ctx.textAlign = 'center'; ctx.fillStyle = lc; ctx.fillText(lt, 55, 7); }), sh.x - 25, sh.y + 29, 110, 14);
+  });
+
+  // enemies
+  var step = Math.floor(time * 2.5) % 2;
+  enemies.forEach(function (e) {
+    var x = ex(e), y = ey(e) + Math.sin(time * 3 + e.col + e.row) * 1.2, c = catCol(e);
+    if (e.warn > 0 && !e.diving) x += Math.sin(time * 60) * 2.5;
+    ctx.fillStyle = c; ctx.globalAlpha = 0.75; // little legs
+    ctx.fillRect(x + 14 + (step ? 3 : 0), y + PH - 1, 4, 4); ctx.fillRect(x + PW - 18 - (step ? 3 : 0), y + PH - 1, 4, 4);
+    ctx.globalAlpha = 1;
+    var lbl = e.labels[e.mi], v = e.flash > 0 ? 'F' : L.dual ? 'D' + e.hp : 'N' + e.hp + '/' + e.max, txt = e.txt;
+    ctx.drawImage(sprite('e|' + li + '|' + lbl + '|' + c + '|' + v, PW, PH, function () { paintEnemy(txt, c, v, e.hp, e.max); }), x, y, PW, PH);
+    if (e.warn > 0 || e.diving) { ctx.strokeStyle = '#fff'; ctx.lineWidth = 2; rr(x, y, PW, PH, 8); ctx.stroke(); }
+  });
+
+  // bonus ship
+  if (ufo) {
+    var uw = ufo.w;
+    ctx.drawImage(sprite('u|' + L.ufo + '|' + uw, uw + 40, 60, function () {
+      ctx.shadowColor = '#fff'; ctx.shadowBlur = 12; ctx.fillStyle = L.ufo === 'GREENWASHING' ? '#7be0a0' : '#fff';
+      rr(20, 20, uw, 20, 10); ctx.fill(); ctx.shadowBlur = 0;
+      ctx.fillStyle = '#0b1220'; ctx.font = '800 11px ' + SANS; ctx.textAlign = 'center'; ctx.fillText(L.ufo, 20 + uw / 2, 30.5);
+    }), ufo.x - 20, ufo.y - 20, uw + 40, 60);
+  }
+
+  // bullets
+  ctx.textAlign = 'center';
+  var tick = L.tick && sprite('tick', 20, 20, function () { ctx.fillStyle = '#7be0a0'; ctx.font = '800 15px ' + SANS; ctx.textAlign = 'center'; ctx.fillText('✓', 10, 10); });
+  ctx.fillStyle = '#fff';
+  pBul.forEach(function (b) { if (tick) ctx.drawImage(tick, b.x - 10, b.y - 5, 20, 20); else ctx.fillRect(b.x - 1.5, b.y, 3, 12); });
+  var shot = sprite('shot|' + L.shot, 30, 20, function () { ctx.fillStyle = '#ff8f6b'; ctx.font = '800 ' + (L.shot.length > 1 ? 10 : 15) + 'px ' + SANS; ctx.textAlign = 'center'; ctx.fillText(L.shot, 15, 10); });
+  eBul.forEach(function (b) { ctx.drawImage(shot, b.x - 15, b.y - 10, 30, 20); });
+
+  // player
+  if (state !== 'over' && (player.inv <= 0 || Math.floor(time * 12) % 2)) {
+    var px = player.x, py = player.y;
+    ctx.fillStyle = L.accent; rr(px - 22, py, 44, 13, 4); ctx.fill(); rr(px - 8, py - 8, 16, 12, 3); ctx.fill();
+    ctx.fillStyle = '#fff'; ctx.fillRect(px - 2, py - 16, 4, 10);
+    leaf(px, py + 6, 5, '#0b1220');
+  }
+
+  parts.forEach(function (p) { ctx.globalAlpha = clamp(p.t * 2, 0, 1); ctx.fillStyle = p.col; ctx.fillRect(p.x, p.y, 3, 3); });
+  ctx.globalAlpha = 1;
+  ctx.font = '800 12px ' + SANS; ctx.textAlign = 'center';
+  pops.forEach(function (p) { ctx.globalAlpha = clamp(p.t * 2, 0, 1); ctx.fillStyle = p.col; if (p.hw == null) p.hw = ctx.measureText(p.txt).width / 2 + 6; ctx.fillText(p.txt, clamp(p.x, p.hw, W - p.hw), p.y); });
+  ctx.globalAlpha = 1;
+  if (banner) {
+    ctx.globalAlpha = clamp(Math.min(banner.t, banner.d - banner.t) * 5, 0, 1);
+    if (!banner.size) { banner.size = portrait ? 17 : 22; ctx.font = '800 ' + banner.size + 'px ' + SANS; var bw = ctx.measureText(banner.txt).width; if (bw > W - 30) banner.size *= (W - 30) / bw; }
+    ctx.font = '800 ' + banner.size + 'px ' + SANS;
+    ctx.fillStyle = 'rgba(5,8,15,.8)'; ctx.fillRect(0, H * 0.55 - 22, W, 44);
+    ctx.fillStyle = banner.col; ctx.fillText(banner.txt, W / 2, H * 0.55); ctx.globalAlpha = 1;
+  }
+  ctx.restore();
+  if (flashT > 0) { ctx.fillStyle = 'rgba(255,255,255,' + Math.min(0.6, flashT * 2.4) + ')'; ctx.fillRect(0, 0, W, H); }
+}
+function paintEnemy(txt, c, v, hp, max) {
+  var x = 0, y = 0, flash = v === 'F';
+  rr(x, y, PW, PH, 8);
+  if (flash) { ctx.fillStyle = '#fff'; ctx.fill(); }
+  else if (L.dual) {
+    ctx.save(); ctx.clip();
+    ctx.fillStyle = hp === 2 ? '#5fd6c4' : '#2a3550'; ctx.fillRect(x, y, PW / 2, PH);
+    ctx.fillStyle = '#ffc857'; ctx.fillRect(x + PW / 2, y, PW / 2, PH);
+    ctx.restore();
+    if (hp === 1) { ctx.fillStyle = '#5fd6c4'; ctx.font = '800 10px ' + SANS; ctx.textAlign = 'left'; ctx.fillText('✓', x + 5, y + 8); }
+  } else { ctx.fillStyle = c; ctx.fill(); }
+  ctx.fillStyle = '#0b1220'; ctx.textAlign = 'center'; ctx.font = '700 ' + txt.size + 'px ' + SANS;
+  var ly = function (k) { return y + PH / 2 + (k - (txt.lines.length - 1) / 2) * (txt.size + 1) + 0.5; };
+  if (L.dual && hp === 1 && !flash) { // keep text readable across the dark half
+    ctx.lineWidth = 3; ctx.strokeStyle = 'rgba(255,255,255,.85)'; ctx.lineJoin = 'round';
+    txt.lines.forEach(function (ln, k) { ctx.strokeText(ln, x + PW / 2, ly(k)); });
+  }
+  txt.lines.forEach(function (ln, k) { ctx.fillText(ln, x + PW / 2, ly(k)); });
+  if (!L.dual && max > 1) for (var h = 0; h < max; h++) { ctx.fillStyle = h < hp ? '#0b1220' : 'rgba(11,18,32,.25)'; ctx.fillRect(x + PW - 8 - h * 6, y + 3, 4, 4); }
+}
+function leaf(x, y, r, col) {
+  ctx.save(); ctx.translate(x, y); ctx.rotate(-0.7); ctx.fillStyle = col || '#7be0a0';
+  ctx.beginPath(); ctx.moveTo(-r, 0); ctx.quadraticCurveTo(0, -r * 1.1, r, 0); ctx.quadraticCurveTo(0, r * 1.1, -r, 0); ctx.fill(); ctx.restore();
+}
+
+/* ───────────── Screens ───────────── */
+var ovCb = null, ovAt = 0;
+function diffHtml() {
+  return '<div class="dfs"><span>Difficulty</span>' + ['low', 'med', 'high'].map(function (k) {
+    return '<button type="button" class="df' + (k === diff ? ' on' : '') + '" data-df="' + k + '">' + DIFFS[k].name + '</button>'; }).join('') + '</div>';
+}
+function brandHtml(small) {
+  var f = document.querySelector('#dd-stamp img');
+  return '<div><a class="dd-brand2' + (small ? ' sm' : '') + '" target="_blank" rel="noopener" href="' + esc(novistoUrl(small ? 'home-mobile' : 'end-screen')) + '">Brought to you by ' +
+    (f ? '<img src="' + f.getAttribute('src') + '" alt="Novisto">' : '<b>Novisto</b>') + '</a></div>';
+}
+function tipsHtml() { return '<div><button type="button" class="tips-btn" aria-haspopup="dialog" aria-expanded="false">&#9432; Game tips</button></div>'; }
+var tipsEl = document.getElementById('dd-tips'), tipsTimer = 0, tipsPinned = false;
+function tipsContent() {
+  var basics = touch ? 'Move with ◀ ▶ and tap <b>FIRE</b>.' : 'Move with <b>← →</b>, fire with <b>Space</b>. <b>P</b> pauses.';
+  return '<button type="button" class="x" aria-label="Close tips">&times;</button><h3>Game tips</h3>' +
+    '<h4>The basics</h4><p>' + basics + ' Clear every item before it reaches your defences. 3 lives.</p>' +
+    '<h4>The multiplier</h4><p>Hits in a row multiply your points:</p>' +
+    '<table><tr><td>5</td><td>x2</td><td>10</td><td>x3</td><td>15</td><td>x4</td><td>20+</td><td>x5</td></tr></table>' +
+    '<p>A miss or getting hit resets it. Only fire when something is above you, and aim a little ahead.</p>' +
+    '<h4>The special ' + (touch ? '(★)' : '(X)') + '</h4><p>Charges after 10 clears. Takes out the front row and anything diving, and clears incoming shots. Save it for x5, and use it before the level ends.</p>' +
+    '<h4>Bonus ship</h4><p>Every 15–20 seconds. Big bonus plus 7 seconds of rapid fire.</p>' +
+    '<h4>End of level</h4><p>Bonus for every defence still standing and every life left. Fire through the gaps, not your own defences.</p>';
+}
+function openTips(pin) {
+  clearTimeout(tipsTimer); if (pin) tipsPinned = true;
+  if (tipsEl.hidden) {
+    tipsEl.innerHTML = tipsContent(); tipsEl.hidden = false; tipsEl.scrollTop = 0; tipsEl.querySelector('.x').onclick = function () { closeTips(); };
+    // sit above the button (or below it if there is more room there), never on top of it
+    var b0 = card.querySelector('.tips-btn'), sr = stage.getBoundingClientRect(), br = b0 ? b0.getBoundingClientRect() : { top: sr.height / 2, bottom: sr.height / 2 };
+    var above = br.top - sr.top, below = sr.bottom - br.bottom, gap = 8;
+    tipsEl.style.top = tipsEl.style.bottom = '';
+    if (above >= below) { tipsEl.style.bottom = (sr.bottom - br.top + gap) + 'px'; tipsEl.style.maxHeight = Math.max(120, above - 2 * gap) + 'px'; }
+    else { tipsEl.style.top = (br.bottom - sr.top + gap) + 'px'; tipsEl.style.maxHeight = Math.max(120, below - 2 * gap) + 'px'; }
+  }
+  var b = card.querySelector('.tips-btn'); if (b) b.setAttribute('aria-expanded', 'true');
+}
+function closeTips() {
+  clearTimeout(tipsTimer); tipsPinned = false; tipsEl.hidden = true;
+  var b = card.querySelector('.tips-btn'); if (b) b.setAttribute('aria-expanded', 'false');
+}
+function softCloseTips() { if (!tipsPinned) { clearTimeout(tipsTimer); tipsTimer = setTimeout(closeTips, 220); } }
+var canHover = !touch && window.matchMedia && window.matchMedia('(hover: hover)').matches;
+if (canHover) { tipsEl.addEventListener('mouseenter', function () { clearTimeout(tipsTimer); }); tipsEl.addEventListener('mouseleave', softCloseTips); }
+document.addEventListener('pointerdown', function (ev) { // tap or click outside closes the panel
+  if (!tipsEl.hidden && !tipsEl.contains(ev.target) && !(ev.target.closest && ev.target.closest('.tips-btn'))) closeTips();
+});
+function bindTips() {
+  var b = card.querySelector('.tips-btn'); if (!b) return;
+  if (canHover) { b.addEventListener('mouseenter', function () { openTips(false); }); b.addEventListener('mouseleave', softCloseTips); }
+  b.addEventListener('click', function (ev) { ev.preventDefault(); if (!tipsEl.hidden && tipsPinned) closeTips(); else openTips(true); });
+}
+function overlay(html, btn, cb, sec, branded, tips) {
+  closeTips();
+  card.innerHTML = html + '<div><button type="button" id="dd-go">' + btn + '</button>' + (sec ? '<button type="button" class="sec" id="dd-sec">' + sec[0] + '</button>' : '') +
+    '<span id="dd-extra"></span></div>' + (branded === 'small'   // phone home screen: tips link and a small credit share one line, so both are visible without scrolling
+      ? '<div class="row2">' + (tips ? tipsHtml() : '') + brandHtml(true) + '</div>'
+      : '<div class="hint">' + (touch ? 'TAP TO CONTINUE' : 'PRESS ENTER OR SPACE') + '</div>' + (tips ? tipsHtml() : '') + (branded ? brandHtml() : ''));
+  ov.style.display = 'flex'; ovCb = cb; ovAt = performance.now(); stage.classList.toggle('branded', !!branded); stage.classList.add('ov'); bindTips();
+  document.getElementById('dd-go').onclick = go;
+  if (sec) document.getElementById('dd-sec').onclick = function () { run(sec[1]); };
+  Array.prototype.forEach.call(card.querySelectorAll('.df'), function (b) {
+    b.onclick = function () {
+      diff = b.getAttribute('data-df'); try { localStorage.setItem('dd-diff', diff); } catch (e) {}
+      Array.prototype.forEach.call(card.querySelectorAll('.df'), function (o) { o.classList.toggle('on', o === b); });
+    };
+  });
+}
+function run(cb) {
+  if (!ovCb || performance.now() - ovAt < 350) return;
+  ovCb = null; boardOpen = null; ov.style.display = 'none'; stage.classList.remove('branded'); stage.classList.remove('ov'); closeTips(); keys.fire = false; beep(660, 0.08, 'square', 0.03); cb();
+}
+function go() { run(ovCb); }
+function begin(md, n) { mode = md; score = 0; lives = CONFIG.startLives; showIntro(n, false); }
+function showTitle() {
+  state = 'title'; mode = 'campaign'; root.style.setProperty('--acc', '#7be0a0');
+  overlay('<div class="k">Five levels &middot; one reporting cycle &middot; no extensions</div><h1>' + CONFIG.title + '</h1><p>' + CONFIG.tagline + '</p>' + chalHtml('all') + diffHtml() +
+    '<div class="lvs">' + LEVELS.map(function (l, i) { return '<button type="button" class="lv" data-lv="' + i + '" style="--c:' + l.accent + '"><b>' + (i + 1) + '</b>' + l.name + '<small>' + l.title + '</small></button>'; }).join('') + '</div>' +
+    '', 'Play all five', function () { begin('campaign', 0); }, hi ? ['High scores', function () { showBoard('all', null, true); }] : null, touch || portrait ? 'small' : false, true);
+  Array.prototype.forEach.call(card.querySelectorAll('.lv'), function (b) {
+    b.onclick = function () { var n = +b.getAttribute('data-lv'); run(function () { begin('single', n); }); };
+  });
+}
+function showIntro(n, first) {
+  startLevel(n); state = 'intro';
+  overlay('<div class="k">Level ' + (n + 1) + ' of 5 &middot; ' + L.name + '</div><h2>' + L.title + '</h2>' + (mode === 'single' ? chalHtml(L.slug) : '') + '<p>' + L.brief + '</p><p class="tip">' + L.tip + '</p>' +
+    '<div class="chips">' + Object.keys(L.cats).map(function (k) { return '<span class="chip" style="background:' + L.cats[k][0] + '">' + L.cats[k][1] + '</span>'; }).join('') + '</div>' +
+    '<p class="sp">Clear 10 items to charge your special' + (touch ? ' (★)' : ' (press X)') + ': <b>' + L.special + '</b>. Hit streaks multiply your score.</p>' + (first ? diffHtml() : ''),
+    first ? 'Play' : 'Begin', function () { state = 'play'; }, first ? ['All levels', showTitle] : null, false, true);
+}
+function chalHtml(key) {
+  return chal && chal.key === key ? '<p class="claim"><b>' + esc(chal.n) + '</b> scored <b>' + fmt(chal.s) + '</b> here and does not think you can beat it.</p>' : '';
+}
+function replay() { begin(mode, mode === 'campaign' ? 0 : li); }
+function showClear() {
+  var kept = shields.filter(function (s) { return !s.dead; }).length, bonus = Math.round((kept * 100 + lives * 50) * D().s);
+  var acc = stats.shots ? Math.round(100 * stats.hits / stats.shots) : 0;
+  score += bonus; saveHi();
+  var rows = '<span>Accuracy</span><b>' + acc + '%</b><span>' + (li === 1 ? 'Assets protected' : 'Defences intact') + '</span><b>' + kept + ' / ' + shields.length + '</b><span>Bonus</span><b>+' + fmt(bonus) + '</b>';
+  if (mode === 'campaign' && li < LEVELS.length - 1)
+    overlay('<div class="k">Level ' + (li + 1) + ' cleared</div><h2>' + L.name + ': done.</h2><p>' + L.done + '</p>' + (L.avoided ? '<p>Outcomes avoided: ' + L.avoided.join(' &middot; ') + '.</p>' : '') +
+      '<div class="stats">' + rows + '<span>Score</span><b>' + fmt(score) + '</b></div>', 'Next level', function () { showIntro(li + 1, false); }, null, true);
+  else endRun(mode === 'campaign' ? 'win' : 'clear', rows);
+}
+function showOver() { endRun('over', ''); }
+/* End of a run, arcade-style: result, then name entry if the score makes the table, then the table, then straight back into play. */
+function endRun(kind, extraRows) {
+  state = 'end'; saveHi(); lastKind = kind;
+  var key = boardKey(), best = myBest(key), rows = board(key).filter(function (r) { return !r.me; }), pos = 0;
+  while (pos < rows.length && rows[pos].s >= score) pos++;
+  var beatsBest = !best || score > best.s, on = score > 0 && pos < 10 && beatsBest;
+  var head = kind === 'win' ? ['Reporting cycle complete', 'Filed. Assured. On time.', 'Compliant, risk-aware, doubly material, fully inventoried, and every stakeholder answered.']
+    : kind === 'clear' ? ['Level ' + (li + 1) + ' cleared', L.name + ': done.', L.done + (L.avoided ? ' Outcomes avoided: ' + L.avoided.join(', ').toLowerCase() + '.' : '')]
+    : ['Cycle interrupted', 'Out of runway on ' + L.name + '.', 'It happens to every team at least once.'];
+  var html = '<div class="k">' + head[0] + '</div><h2>' + head[1] + '</h2><p>' + head[2] + '</p><div class="stats">' + extraRows +
+    '<span>Score</span><b>' + fmt(score) + '</b><span>Difficulty</span><b>' + D().name + '</b><span>Rank</span><b>' + rankTitle() + '</b></div>';
+  if (on) {
+    html += '<p class="claim">' + (best ? 'New personal best. ' : '') + 'That puts you <b>#' + (pos + 1) + '</b> on the board' + (pos > 0 ? ', right behind ' + esc(rows[pos - 1].n) : '') + '. Claim it.</p>' +
+      '<div class="nm"><input id="dd-name" type="text" maxlength="' + NAME_MAX + '" autocomplete="off" spellcheck="false" aria-label="Name for the high-score board" value="' + esc(myName || pickAlias()) + '">' +
+      '<button type="button" class="sec" id="dd-dice" title="Suggest another name" aria-label="Suggest another name">&#8635;</button></div>' +
+      '<p class="sp">Anonymous: no email, no login, just a made-up name' + (CONFIG.leaderboardUrl ? ' on a public board' : '') + '. Your colleagues will work out who it is anyway.</p>';
+    overlay(html, 'Claim my spot', function () {
+      var want = cleanName(document.getElementById('dd-name').value) || pickAlias(), t = takenNames();
+      if (t[want.toLowerCase()]) { var base = want.slice(0, NAME_MAX - 3), n = 2; while (t[(base + ' ' + n).toLowerCase()]) n++; want = base + ' ' + n; }
+      myName = want; showBoard(key, addScore(key, myName));
+    }, ['Skip', function () { showBoard(key, null); }], true);
+    var inp = document.getElementById('dd-name');
+    document.getElementById('dd-dice').onclick = function () { inp.value = pickAlias(inp.value); };
+    inp.addEventListener('keydown', function (ev) { if (ev.key === 'Enter') { ev.preventDefault(); go(); } });
+    if (!touch) { inp.focus(); inp.select(); }
+  } else {
+    var all = board(key), bi = best ? all.indexOf(best) : -1;
+    html += '<p class="claim">' + (best && !beatsBest ? 'Your best here is still <b>' + fmt(best.s) + '</b>' + (bi >= 0 && bi < 10 ? ' (#' + (bi + 1) + ' on the board)' : '') + '. Only your best score is kept.'
+      : rows[9] ? '<b>' + fmt(rows[9].s - score + 10) + '</b> more points puts you on the board, past ' + esc(rows[9].n) + '.' : '') + '</p>';
+    overlay(html, 'Play again', replay, ['High scores', function () { showBoard(key, null); }], true, kind === 'over');
+  }
+  var extra = document.getElementById('dd-extra');
+  if (kind === 'win' && extra && CONFIG.ctaUrl && CONFIG.ctaText)
+    extra.innerHTML = '<a class="cta" href="' + esc(novistoUrl('win-screen-cta', CONFIG.ctaUrl)) + '" target="_blank" rel="noopener">' + esc(CONFIG.ctaText) + '</a>';
+}
+function showBoard(key, me, fromTitle, isRefresh) {
+  state = 'end';
+  var rows = board(key).slice(0, 10), idx = -1, has = !fromTitle && score > 0;
+  rows.forEach(function (r, i) { if (r.me) { idx = i; me = r; } });
+  var line = idx === 0 ? 'Top of the board. ' + esc(rows[1].n) + ' has asked to see your evidence.'
+    : idx > 0 ? '<b>' + fmt(rows[idx - 1].s - me.s + 10) + '</b> points behind ' + esc(rows[idx - 1].n) + '. One more run would do it.' : '';
+  var html = '<div class="k">High scores &middot; ' + (key === 'all' ? 'Full reporting cycle' : LEVELS[SLUGS.indexOf(key)].name) + '</div><table class="hs">' +
+    rows.map(function (r, i) { return '<tr class="' + (r.me ? 'me' : r.chal ? 'ch' : '') + '"><td>' + (i + 1) + '</td><td>' + esc(r.n) + (r.me ? '<i>you</i>' : r.chal ? '<i>challenger</i>' : '') + '</td><td>' + fmt(r.s) + '</td></tr>'; }).join('') +
+    '</table>' + (line ? '<p class="claim">' + line + '</p>' : '') + '<p class="sp">' + DARE[key] + '</p>' +
+    '<div class="shr"><button type="button" class="sh" id="dd-ch">Challenge a colleague</button>' +
+    '<a class="sh" id="dd-li" target="_blank" rel="noopener" href="https://www.linkedin.com/feed/?shareActive=true&text=' + encodeURIComponent(shareText(key, has) + ' ' + shareUrl(key, '', has)) + '">Share on LinkedIn</a></div>' +
+    '<p class="sp">' + (CONFIG.leaderboardUrl ? 'This board is public. ' : 'Scores are saved in this browser. ') + 'Names are made up. Rivalries are real.</p>';
+  overlay(html, fromTitle ? 'Play' : 'Play again', fromTitle ? function () { begin('campaign', 0); } : replay, ['All levels', showTitle], true);
+  boardOpen = { key: key, me: null, fromTitle: fromTitle }; if (!isRefresh) loadRemote(key);
+  document.getElementById('dd-ch').onclick = function () {
+    var text = shareText(key, has), url = shareUrl(key, 'challenge', has);
+    if (touch && navigator.share) { try { navigator.share({ text: text, url: url }).catch(function () {}); return; } catch (e) {} }
+    copyText(text + ' ' + url, this);
+  };
+  document.getElementById('dd-li').onclick = function () { // also put the post text on the clipboard, in case LinkedIn opens an empty composer
+    try { navigator.clipboard.writeText(shareText(key, has) + ' ' + shareUrl(key, '', has)).catch(function () {}); } catch (e) {}
+  };
+}
+function togglePause() {
+  if (state === 'play') { state = 'paused'; overlay('<div class="k">Paused</div><h2>Out of office.</h2><p>Your requests are waiting exactly where you left them.</p>', 'Resume', function () { state = 'play'; }, ['Quit to all levels', showTitle], false, true); }
+  else if (state === 'paused') go();
+}
+
+/* ───────────── Input ───────────── */
+var KEYMAP = { ArrowLeft: 'left', a: 'left', A: 'left', ArrowRight: 'right', d: 'right', D: 'right', ' ': 'fire', ArrowUp: 'fire', w: 'fire', W: 'fire' };
+window.addEventListener('keydown', function (ev) {
+  if (ev.target && /INPUT|TEXTAREA|SELECT/.test(ev.target.tagName)) return;
+  var k = KEYMAP[ev.key];
+  if (k || ev.key === 'Enter') ev.preventDefault();
+  if (ovCb && (ev.key === 'Enter' || ev.key === ' ') && !ev.repeat) { go(); return; }
+  if (k) keys[k] = true;
+  if (ev.key === 'Escape' && !tipsEl.hidden) { closeTips(); return; }
+  if (ev.key === 'p' || ev.key === 'P' || ev.key === 'Escape') togglePause();
+  if (ev.key === 'm' || ev.key === 'M') muted = !muted;
+  if (ev.key === 'x' || ev.key === 'X' || ev.key === 'Shift') keys.special = true;
+});
+window.addEventListener('keyup', function (ev) { var k = KEYMAP[ev.key]; if (k) keys[k] = false; });
+window.addEventListener('blur', function () { keys.left = keys.right = keys.fire = false; if (state === 'play') togglePause(); });
+Array.prototype.forEach.call(document.querySelectorAll('#dd-touch button'), function (b) {
+  var k = b.getAttribute('data-k'), a = b.getAttribute('data-a');
+  var on = function (ev) { ev.preventDefault(); if (a === 'pause') { togglePause(); return; } if (a === 'special') { keys.special = true; return; } if (ovCb && k === 'fire') { go(); return; } keys[k] = true; };
+  var off = function (ev) { ev.preventDefault(); if (k) keys[k] = false; };
+  b.addEventListener('pointerdown', on); b.addEventListener('pointerup', off); b.addEventListener('pointercancel', off); b.addEventListener('pointerleave', off);
+  b.addEventListener('contextmenu', function (ev) { ev.preventDefault(); });
+});
+
+document.addEventListener('touchstart', function (ev) {
+  var t = ev.touches[0], edge = 24;
+  if (!t || (t.clientX > edge && t.clientX < window.innerWidth - edge)) return;
+  if (ev.target.closest && ev.target.closest('a, input, textarea, #dd-tips')) return;
+  ev.preventDefault();
+}, { passive: false });
+
+/* ───────────── Loop ───────────── */
+/* Start level: <meta name="dd:level" content="risk"> in the page head, or a #risk hash on the URL */
+var SLUGS = LEVELS.map(function (l) { return l.slug; });
+function boot() {
+  var tag = document.querySelector('meta[name="dd:level"]');
+  var want = (location.hash || '').replace('#', '') || (tag && tag.getAttribute('content')) || '';
+  var n = SLUGS.indexOf(want);
+  try { // challenge links: ?beat=3450&by=Captain%20Assurance
+    var qs = new URLSearchParams(location.search), bs = parseInt(qs.get('beat'), 10);
+    if (bs > 0 && bs < 1e7) chal = { n: cleanName(qs.get('by')) || 'A colleague', s: bs, chal: 1, key: n >= 0 ? SLUGS[n] : 'all' };
+  } catch (e) {}
+  if (n >= 0) { mode = 'single'; score = 0; lives = CONFIG.startLives; showIntro(n, true); } else showTitle();
+}
+window.addEventListener('hashchange', boot);
+var lastT = 0, perfMs = 0;
+function frame(t) {
+  var dt = Math.min(0.05, (t - lastT) / 1000 || 0); lastT = t;
+  try { var t0 = performance.now(); if (state === 'play' || state === 'clear' || state === 'over') update(dt); else time += dt; draw(); perfMs = perfMs * 0.95 + (performance.now() - t0) * 0.05; }
+  catch (e) { if (window.console) console.error(e); }
+  requestAnimationFrame(frame);
+}
+startLevel(0); boot(); requestAnimationFrame(frame);
+window.__dd = { state: function () { return { state: state, level: li, enemies: enemies.length, score: score, lives: lives }; }, clear: function () { enemies.length = 0; }, end: function () { lives = 1; player.inv = 0; hurt(); },
+  perf: function () { return Math.round(perfMs * 100) / 100; },
+  peek: function () { return { state: state, li: li, W: W, H: H, px: player.x, py: player.y, dir: form.dir, charge: charge, score: score, lives: lives, mode: mode, diff: diff, overlay: !!ovCb,
+    en: enemies.map(function (e) { return { x: ex(e), y: ey(e), w: PW, diving: e.diving, hp: e.hp }; }), eb: eBul.map(function (b) { return { x: b.x, y: b.y }; }) }; },
+  fitCheck: function () { var bad = []; LEVELS.forEach(function (l) { l.enemies.forEach(function (d) { [].concat(d[0]).forEach(function (lb) {
+    var f = fit(lb, PW - 10); ctx.font = '700 ' + f.size + 'px ' + SANS; var w = Math.max.apply(null, f.lines.map(function (x) { return ctx.measureText(x).width; }));
+    if (f.size < 9 || w > PW - 6 || f.lines.length > 2) bad.push(lb + ' size=' + f.size + ' w=' + Math.round(w)); }); }); }); return bad; } };
+})();
+</script>
+</body>
+</html>
